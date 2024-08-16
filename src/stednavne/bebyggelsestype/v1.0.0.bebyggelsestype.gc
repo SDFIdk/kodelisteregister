@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Identification>
+    <ShortName>bebyggelsestype</ShortName>
+    <LongName xml:lang="da">Bebyggelsestype</LongName>
+    <Version>1.0.0</Version>
+    <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/bebyggelsestype/</CanonicalUri>
+    <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/bebyggelsestype/1.0.0</CanonicalVersionUri>
+    <LocationUri>https://github.com/SDFIdk/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.gc</LocationUri>
+    <AlternateFormatLocationUri MimeType="text/csv">https://github.com/SDFIdk/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.csv</AlternateFormatLocationUri>
+    <AlternateFormatLocationUri MimeType="text/html">https://github.com/SDFIdk/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.html</AlternateFormatLocationUri>
+    <Agency>
+      <ShortName>KDS</ShortName>
+      <LongName xml:lang="da">Klimadatastyrelsen</LongName>
+      <Identifier Identifier="https://datacvr.virk.dk/enhed/virksomhed/">37284114</Identifier>
+    </Agency>
+  </Identification>
+  <ColumnSet>
+    <Column Id="kode" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tilladt værdi i data</dc:description>
+          <dc:description xml:lang="en">allowed value in data</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kode</ShortName>
+      <LongName xml:lang="da">Kode</LongName>
+      <LongName xml:lang="en">Code</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="definition" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kort beskrivelse eller formel forklaring af kodens betydning</dc:description>
+          <dc:description xml:lang="en">short description or formal explanation of the meaning of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>definition</ShortName>
+      <LongName xml:lang="da">Definition</LongName>
+      <LongName xml:lang="en">Definition</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="kommentar" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kommentar som hjælper til afklaring af forståelse af koden</dc:description>
+          <dc:description xml:lang="en">comment to help clarify understanding of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kommentar</ShortName>
+      <LongName xml:lang="da">Kommentar</LongName>
+      <LongName xml:lang="en">Comment</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="navn" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">foretrukne term for koden</dc:description>
+          <dc:description xml:lang="en">preferred label for the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>navn</ShortName>
+      <LongName xml:lang="da">Navn</LongName>
+      <LongName xml:lang="en">Name</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="virkningFra" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dc:description>
+          <dc:description xml:lang="en">time when the code can be used for new registrations</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningFra</ShortName>
+      <LongName xml:lang="da">Virkning-fra</LongName>
+      <LongName xml:lang="en">Valid from</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="virkningTil" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dc:description>
+          <dc:description xml:lang="en">time when the code can no longer be used in new registrations. The code may exist in data registered before this time </dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningTil</ShortName>
+      <LongName xml:lang="da">Virkning-til</LongName>
+      <LongName xml:lang="en">Valid to</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="key_code">
+      <ShortName>key_code</ShortName>
+      <ColumnRef Ref="kode"/>
+    </Key>
+    <Key Id="key_navn">
+      <ShortName>key_navn</ShortName>
+      <ColumnRef Ref="navn"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>andenBebyggelse</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>område med bebyggelse m.m. til et særligt formål</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>fx kaserne eller asylcenter</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>anden bebyggelse</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>boligområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>område med en mindre gruppe af bygninger</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Ligger altid inden i en by. Mindre end kvarter</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>boligområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>by</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>samling af bygninger til beboelse samt bygninger til bymæssige formål</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Ofte et område som er centrum for handel, administration og kultur. En by kan bestå af helt ned til to huse/gårde</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>by</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>bydel</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>del af en by afgrænset ud fra administrative, historiske eller geografiske forhold</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Ligger altid inden for en bygrænse</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>bydel</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>campus</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>samling af bygninger til undervisningsformål og tilhørende beboelse</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>I de tilfælde, hvor campus kun udgør en administrativ afgrænsning, som fx ved Københavns Universitet, undlades registrering.</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>campus</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>erhvervsområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>bebygget område præget af virksomheder</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Behøver ikke at være en del af en by</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>erhvervsområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>kvarter</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>mindre lokalområde i en by, med et ensartet præg og karakter af samhørighed</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Mindre end bydel</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>kvarter</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>sommerhusområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>område præget af huse til ophold i ferier og weekender</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>sommerhusområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>sommerhusområdedel</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>del af et sommerhusområde afgrænset ud fra administrative, historiske eller geografiske forhold</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Ligger altid inden i et sommerhusområde.</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>sommerhusområdedel</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>spredtBebyggelse</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>samling af bygninger, ofte gårde, uden egentlig bygningskoncentration</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>spredt bebyggelse</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>
