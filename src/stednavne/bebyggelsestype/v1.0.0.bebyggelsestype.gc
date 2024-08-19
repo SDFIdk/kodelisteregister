@@ -6,9 +6,9 @@
     <Version>1.0.0</Version>
     <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/bebyggelsestype/</CanonicalUri>
     <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/bebyggelsestype/1.0.0</CanonicalVersionUri>
-    <LocationUri>https://github.com/SDFIdk/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.gc</LocationUri>
-    <AlternateFormatLocationUri MimeType="text/csv">https://github.com/SDFIdk/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.csv</AlternateFormatLocationUri>
-    <AlternateFormatLocationUri MimeType="text/html">https://github.com/SDFIdk/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.html</AlternateFormatLocationUri>
+    <LocationUri>https://sdfidk.github.io/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.gc</LocationUri>
+    <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.csv</AlternateFormatLocationUri>
+    <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/stednavne/bebyggelsestype/v1.0.0.bebyggelsestype.html</AlternateFormatLocationUri>
     <Agency>
       <ShortName>KDS</ShortName>
       <LongName xml:lang="da">Klimadatastyrelsen</LongName>
@@ -254,7 +254,7 @@
         <SimpleValue>sommerhusområdedel</SimpleValue>
       </Value>
       <Value ColumnRef="virkningFra">
-        <SimpleValue>2025-01-01</SimpleValue>
+        <SimpleValue>2025-03-01</SimpleValue>
       </Value>
       <Value ColumnRef="virkningTil"/>
     </Row>
@@ -270,7 +270,7 @@
         <SimpleValue>spredt bebyggelse</SimpleValue>
       </Value>
       <Value ColumnRef="virkningFra">
-        <SimpleValue>2025-01-01</SimpleValue>
+        <SimpleValue>2025-04-01</SimpleValue>
       </Value>
       <Value ColumnRef="virkningTil"/>
     </Row>
