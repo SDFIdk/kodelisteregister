@@ -130,39 +130,5 @@
       </Value>
       <Value ColumnRef="virkningTil"/>
     </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-    </Row>
-    <Row>
-      <Value ColumnRef="kode"/>
-      <Value ColumnRef="definition"/>
-      <Value ColumnRef="kommentar"/>
-      <Value ColumnRef="navn"/>
-    </Row>
   </SimpleCodeList>
 </gc:CodeList>
