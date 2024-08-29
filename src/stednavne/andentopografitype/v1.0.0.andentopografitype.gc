@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Identification>
+    <ShortName>andentopografitype</ShortName>
+    <LongName xml:lang="da">andentopografitype</LongName>
+    <Version>1.0.0</Version>
+    <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/andentopografitype/</CanonicalUri>
+    <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/andentopografitype/1.0.0</CanonicalVersionUri>
+    <LocationUri>https://sdfidk.github.io/kodelisteregister/stednavne/andentopografitype/v1.0.0.andentopografitype.gc</LocationUri>
+    <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/stednavne/andentopografitype/v1.0.0.andentopografitype.csv</AlternateFormatLocationUri>
+    <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/stednavne/andentopografitype/v1.0.0.andentopografitype.html</AlternateFormatLocationUri>
+    <Agency>
+      <ShortName>KDS</ShortName>
+      <LongName xml:lang="da">Klimadatastyrelsen</LongName>
+      <Identifier Identifier="https://datacvr.virk.dk/enhed/virksomhed/">37284114</Identifier>
+    </Agency>
+  </Identification>
+  <ColumnSet>
+    <Column Id="kode" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tilladt værdi i data</dc:description>
+          <dc:description xml:lang="en">allowed value in data</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kode</ShortName>
+      <LongName xml:lang="da">Kode</LongName>
+      <LongName xml:lang="en">Code</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="definition" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kort beskrivelse eller formel forklaring af kodens betydning</dc:description>
+          <dc:description xml:lang="en">short description or formal explanation of the meaning of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>definition</ShortName>
+      <LongName xml:lang="da">Definition</LongName>
+      <LongName xml:lang="en">Definition</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="kommentar" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kommentar som hjælper til afklaring af forståelse af koden</dc:description>
+          <dc:description xml:lang="en">comment to help clarify understanding of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kommentar</ShortName>
+      <LongName xml:lang="da">Kommentar</LongName>
+      <LongName xml:lang="en">Comment</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="navn" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">foretrukne term for koden</dc:description>
+          <dc:description xml:lang="en">preferred label for the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>navn</ShortName>
+      <LongName xml:lang="da">Navn</LongName>
+      <LongName xml:lang="en">Name</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="virkningFra" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dc:description>
+          <dc:description xml:lang="en">time when the code can be used for new registrations</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningFra</ShortName>
+      <LongName xml:lang="da">Virkning-fra</LongName>
+      <LongName xml:lang="en">Valid from</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="virkningTil" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dc:description>
+          <dc:description xml:lang="en">time when the code can no longer be used in new registrations. The code may exist in data registered before this time </dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningTil</ShortName>
+      <LongName xml:lang="da">Virkning-til</LongName>
+      <LongName xml:lang="en">Valid to</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="key_code">
+      <ShortName>key_code</ShortName>
+      <ColumnRef Ref="kode"/>
+    </Key>
+    <Key Id="key_navn">
+      <ShortName>key_navn</ShortName>
+      <ColumnRef Ref="navn"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>fyrtårn</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Tårn, der med lys vejleder skibe. </SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>fyrtårn</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>kilde</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Vand, der fra jordbunden strømmer eller springer ud på overfladen.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>kilde</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>køretekniskAnlæg</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Øvelsesbane for køreskoleelever, bl.a. med manøvrebane og glatbane. </SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>køreteknisk anlæg</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>ledPort</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Passage gennem et hegn, en vold, bymur mm.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>led port</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>overskylledeSten</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Større mineralske blokke umiddelbart over eller under havoverfladen</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>overskylledesten</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>råstofområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Område til udgravning af råstoffer fx stenbrud.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>råstofområde</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>skær</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Mindre, ofte skarp eller spids klippe, som akkurat rager op over eller befinder sig lige under havoverfladen, som regel tæt på land og ofte til fare for skibstrafikken.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>skær</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>sluse</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Bygningsværk til regulering af vandstand.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>sluse</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>sten</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Større mineralsk blok.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>sten</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>træ</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Kendt træ.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>træ</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>tørtVedLavvande</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Kystnært farvand der tørlægges ved ebbe.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>tørt ved lavvande</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>tårnMast</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Høj bygning eller konstruktion.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>tårn mast</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>udsigtspunkt</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Højtliggende punkt med udsigt over et stort område.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>udsigtspunkt</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>undersøiskGrund</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Farvand med ringe vanddybde.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>undersøisk grund</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>vandfald</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Sted i et vandløb, hvor vandet styrter fra et højt til et lavere niveau i terrænet.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>vandfald</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>vandmølle</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Mølle der drives af vandkraft. Møllen er ikke nødvendigvis komplet og i drift.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>vandmølle</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>varde </SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Bunke sten e.l. der afmærker et sted. </SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>varde </SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2024-08-29</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>
