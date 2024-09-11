@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Identification>
+    <ShortName>landområdetype</ShortName>
+    <LongName xml:lang="da">landområdetype</LongName>
+    <Version>1.0.0</Version>
+    <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/landomraadetype/</CanonicalUri>
+    <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/landomraadetype/1.0.0</CanonicalVersionUri>
+    <LocationUri>https://sdfidk.github.io/kodelisteregister/stednavne/landomraadetype/v1.0.0.landomraadetype.gc</LocationUri>
+    <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/stednavne/landomraadetype/v1.0.0.landomraadetype.csv</AlternateFormatLocationUri>
+    <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/stednavne/landomraadetype/v1.0.0.landomraadetype.html</AlternateFormatLocationUri>
+    <Agency>
+      <ShortName>KDS</ShortName>
+      <LongName xml:lang="da">Klimadatastyrelsen</LongName>
+      <Identifier Identifier="https://datacvr.virk.dk/enhed/virksomhed/">37284114</Identifier>
+    </Agency>
+  </Identification>
+  <ColumnSet>
+    <Column Id="kode" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tilladt værdi i data</dc:description>
+          <dc:description xml:lang="en">allowed value in data</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kode</ShortName>
+      <LongName xml:lang="da">Kode</LongName>
+      <LongName xml:lang="en">Code</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="definition" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kort beskrivelse eller formel forklaring af kodens betydning</dc:description>
+          <dc:description xml:lang="en">short description or formal explanation of the meaning of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>definition</ShortName>
+      <LongName xml:lang="da">Definition</LongName>
+      <LongName xml:lang="en">Definition</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="kommentar" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kommentar som hjælper til afklaring af forståelse af koden</dc:description>
+          <dc:description xml:lang="en">comment to help clarify understanding of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kommentar</ShortName>
+      <LongName xml:lang="da">Kommentar</LongName>
+      <LongName xml:lang="en">Comment</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="navn" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">foretrukne term for koden</dc:description>
+          <dc:description xml:lang="en">preferred label for the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>navn</ShortName>
+      <LongName xml:lang="da">Navn</LongName>
+      <LongName xml:lang="en">Name</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="virkningFra" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dc:description>
+          <dc:description xml:lang="en">time when the code can be used for new registrations</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningFra</ShortName>
+      <LongName xml:lang="da">Virkning-fra</LongName>
+      <LongName xml:lang="en">Valid from</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="virkningTil" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dc:description>
+          <dc:description xml:lang="en">time when the code can no longer be used in new registrations. The code may exist in data registered before this time </dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningTil</ShortName>
+      <LongName xml:lang="da">Virkning-til</LongName>
+      <LongName xml:lang="en">Valid to</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="key_code">
+      <ShortName>key_code</ShortName>
+      <ColumnRef Ref="kode"/>
+    </Key>
+    <Key Id="key_navn">
+      <ShortName>key_navn</ShortName>
+      <ColumnRef Ref="navn"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>halvø</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Landområde, der overvejende er omgivet af vand, men til én side er forbundet med fastlandet</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Herunder også næs og odde.</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>halvø</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>landsdel</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Større område i et land, afgrænset på grundlag af fx administrative, geografiske eller kulturelle forhold</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>landsdel</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>pynt</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Landområde, som danner et spidst og ofte stejlt fremspring ud i havet; spidsen af en odde eller et næs</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>I denne kategori medtages også hage.</SimpleValue>
+      </Value>
+      <Value ColumnRef="navn">
+        <SimpleValue>pynt</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>tange</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Lang, smal stribe af land, der går ud i vandet eller forbinder to større stykker land</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>tange</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>ø</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Landområde, der er omgivet af vand på alle sider</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>ø</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>øgruppe</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Gruppe af geografisk sammenhørende øer</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>øgruppe</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>
