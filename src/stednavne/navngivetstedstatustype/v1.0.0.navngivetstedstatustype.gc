@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <Identification>
-    <ShortName>friluftsanlægtype</ShortName>
-    <LongName xml:lang="da">friluftsanlægtype</LongName>
+    <ShortName>navngivetstedstatustype</ShortName>
+    <LongName xml:lang="da">navngivetstedstatustype</LongName>
     <Version>1.0.0</Version>
-    <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/friluftsanlægtype/</CanonicalUri>
-    <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/friluftsanlægtype/1.0.0</CanonicalVersionUri>
-    <LocationUri>https://sdfidk.github.io/kodelisteregister/stednavne/friluftsanlægtype/v1.0.0.friluftsanlægtype.gc</LocationUri>
-    <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/stednavne/friluftsanlægtype/v1.0.0.friluftsanlægtype.csv</AlternateFormatLocationUri>
-    <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/stednavne/friluftsanlægtype/v1.0.0.friluftsanlægtype.html</AlternateFormatLocationUri>
+    <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/navngivetstedstatustype/</CanonicalUri>
+    <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/navngivetstedstatustype/1.0.0</CanonicalVersionUri>
+    <LocationUri>https://sdfidk.github.io/kodelisteregister/stednavne/navngivetstedstatustype/v1.0.0.navngivetstedstatustype.gc</LocationUri>
+    <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/stednavne/navngivetstedstatustype/v1.0.0.navngivetstedstatustype.csv</AlternateFormatLocationUri>
+    <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/stednavne/navngivetstedstatustype/v1.0.0.navngivetstedstatustype.html</AlternateFormatLocationUri>
     <Agency>
       <ShortName>KDS</ShortName>
       <LongName xml:lang="da">Klimadatastyrelsen</LongName>
@@ -100,14 +100,14 @@
   <SimpleCodeList>
     <Row>
       <Value ColumnRef="kode">
-        <SimpleValue>badeanlæg</SimpleValue>
+        <SimpleValue>iBrug</SimpleValue>
       </Value>
       <Value ColumnRef="definition">
-        <SimpleValue>Svømmebassin eller -anlæg i havet, i sø eller på land.</SimpleValue>
+        <SimpleValue>mindst et stednavn tilknyttet NavngivetSted er i anvendelse</SimpleValue>
       </Value>
       <Value ColumnRef="kommentar"/>
       <Value ColumnRef="navn">
-        <SimpleValue>badeanlæg</SimpleValue>
+        <SimpleValue>i brug</SimpleValue>
       </Value>
       <Value ColumnRef="virkningFra">
         <SimpleValue>2025-01-01</SimpleValue>
@@ -116,16 +116,32 @@
     </Row>
     <Row>
       <Value ColumnRef="kode">
-        <SimpleValue>friluftsplads</SimpleValue>
+        <SimpleValue>nedlagt</SimpleValue>
       </Value>
       <Value ColumnRef="definition">
-        <SimpleValue>Udendørs areal, hvor der kan foregå forskellige aktiviteter, </SimpleValue>
+        <SimpleValue>ingen stednavne tilknyttet dette navngivne sted er i brug</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>nedlagt</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>forslag</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>det indberettede NavngivetSted foreslås oprettet, men forespørgslen er endnu ikke blevet behandlet i SDFI</SimpleValue>
       </Value>
       <Value ColumnRef="kommentar">
-        <SimpleValue>Fx en lejrplads, legeplads, motionsplads, shelterplads</SimpleValue>
+        <SimpleValue>Domæneværdien benyttes kun på UbearbejdetNavn</SimpleValue>
       </Value>
       <Value ColumnRef="navn">
-        <SimpleValue>friluftsplads</SimpleValue>
+        <SimpleValue>forslag</SimpleValue>
       </Value>
       <Value ColumnRef="virkningFra">
         <SimpleValue>2025-01-01</SimpleValue>
@@ -134,14 +150,16 @@
     </Row>
     <Row>
       <Value ColumnRef="kode">
-        <SimpleValue>friluftsscene</SimpleValue>
+        <SimpleValue>foreslåetNedlagt</SimpleValue>
       </Value>
       <Value ColumnRef="definition">
-        <SimpleValue>Udendørs område indrettet til afholdelse af teater, koncerter m.m., ofte udformet som et amfiteater</SimpleValue>
+        <SimpleValue>det indberettede NavngivetSted foreslås nedlagt af en indberetter, men er endnu ikke blevet behandlet i SDFI</SimpleValue>
       </Value>
-      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="kommentar">
+        <SimpleValue>Domæneværdien benyttes kun på UbearbejdetNavn</SimpleValue>
+      </Value>
       <Value ColumnRef="navn">
-        <SimpleValue>friluftsscene</SimpleValue>
+        <SimpleValue>foreslået nedlagt</SimpleValue>
       </Value>
       <Value ColumnRef="virkningFra">
         <SimpleValue>2025-01-01</SimpleValue>
