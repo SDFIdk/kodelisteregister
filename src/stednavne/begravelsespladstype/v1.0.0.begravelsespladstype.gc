@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <Identification>
+    <ShortName>begravelsespladstype</ShortName>
+    <LongName xml:lang="da">begravelsespladstype</LongName>
+    <Version>1.0.0</Version>
+    <CanonicalUri>https://data.gov.dk/concept/profile/stednavne/begravelsespladstype/</CanonicalUri>
+    <CanonicalVersionUri>https://data.gov.dk/concept/profile/stednavne/begravelsespladstype/1.0.0</CanonicalVersionUri>
+    <LocationUri>https://sdfidk.github.io/kodelisteregister/stednavne/begravelsespladstype/v1.0.0.begravelsespladstype.gc</LocationUri>
+    <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/stednavne/begravelsespladstype/v1.0.0.begravelsespladstype.csv</AlternateFormatLocationUri>
+    <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/stednavne/begravelsespladstype/v1.0.0.begravelsespladstype.html</AlternateFormatLocationUri>
+    <Agency>
+      <ShortName>KDS</ShortName>
+      <LongName xml:lang="da">Klimadatastyrelsen</LongName>
+      <Identifier Identifier="https://datacvr.virk.dk/enhed/virksomhed/">37284114</Identifier>
+    </Agency>
+  </Identification>
+  <ColumnSet>
+    <Column Id="kode" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tilladt værdi i data</dc:description>
+          <dc:description xml:lang="en">allowed value in data</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kode</ShortName>
+      <LongName xml:lang="da">Kode</LongName>
+      <LongName xml:lang="en">Code</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="definition" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kort beskrivelse eller formel forklaring af kodens betydning</dc:description>
+          <dc:description xml:lang="en">short description or formal explanation of the meaning of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>definition</ShortName>
+      <LongName xml:lang="da">Definition</LongName>
+      <LongName xml:lang="en">Definition</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="kommentar" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">kommentar som hjælper til afklaring af forståelse af koden</dc:description>
+          <dc:description xml:lang="en">comment to help clarify understanding of the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>kommentar</ShortName>
+      <LongName xml:lang="da">Kommentar</LongName>
+      <LongName xml:lang="en">Comment</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="navn" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">foretrukne term for koden</dc:description>
+          <dc:description xml:lang="en">preferred label for the code</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>navn</ShortName>
+      <LongName xml:lang="da">Navn</LongName>
+      <LongName xml:lang="en">Name</LongName>
+      <Data Type="string" Lang="da"/>
+    </Column>
+    <Column Id="virkningFra" Use="required">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dc:description>
+          <dc:description xml:lang="en">time when the code can be used for new registrations</dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningFra</ShortName>
+      <LongName xml:lang="da">Virkning-fra</LongName>
+      <LongName xml:lang="en">Valid from</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Column Id="virkningTil" Use="optional">
+      <Annotation>
+        <Description>
+          <dc:description xml:lang="da">tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dc:description>
+          <dc:description xml:lang="en">time when the code can no longer be used in new registrations. The code may exist in data registered before this time </dc:description>
+        </Description>
+      </Annotation>
+      <ShortName>virkningTil</ShortName>
+      <LongName xml:lang="da">Virkning-til</LongName>
+      <LongName xml:lang="en">Valid to</LongName>
+      <Data Type="string"/>
+    </Column>
+    <Key Id="key_code">
+      <ShortName>key_code</ShortName>
+      <ColumnRef Ref="kode"/>
+    </Key>
+    <Key Id="key_navn">
+      <ShortName>key_navn</ShortName>
+      <ColumnRef Ref="navn"/>
+    </Key>
+  </ColumnSet>
+  <SimpleCodeList>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>andenBegravelsesplads</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Begravelsesplads, som ikke falder ind under de øvrige værdier.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>anden begravelsesplads</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>gravsted</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Sted, hvor én eller nogle få personer er begravet. Som regel et mindre, afgrænset område med én eller flere gravsten.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>gravsted</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>jødisk</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Begravelsesplads tilhørende den jødiske religion.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>jødisk</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>kristen</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Begravelsesplads tilhørende den kristne religion.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>kristen</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+    <Row>
+      <Value ColumnRef="kode">
+        <SimpleValue>muslimsk</SimpleValue>
+      </Value>
+      <Value ColumnRef="definition">
+        <SimpleValue>Begravelsesplads tilhørende den muslimske religion.</SimpleValue>
+      </Value>
+      <Value ColumnRef="kommentar"/>
+      <Value ColumnRef="navn">
+        <SimpleValue>muslimsk</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningFra">
+        <SimpleValue>2025-01-01</SimpleValue>
+      </Value>
+      <Value ColumnRef="virkningTil"/>
+    </Row>
+  </SimpleCodeList>
+</gc:CodeList>
