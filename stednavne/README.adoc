@@ -1,0 +1,21 @@
+= Danske Stednavne
+:author: Klimadatastyrelsen
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Stednavne/package-summary.html[objektkatalog^].
+
+[#description]
+{doctitle}s kodelister er kendetegnet ved at beskrive den type af navn, som kan findes i {doctitle}. Koderne er i sig selv menneskelig læsbare, hvorfor koden og navnet på koden er enslydende.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af {author}.
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til support@kds.dk.

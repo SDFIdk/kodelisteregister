@@ -1,0 +1,22 @@
+= Matrikel
+:author: Geodatastyrelsen
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Matrikel/package-summary.html[objektkatalog^].
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kendetegnet ved at beskrive typer af matrikulære elementer, statusser, nøjagtighedsklasser mm. Koderne er i sig selv forklarende, og koden og navnet på koden er derfor enslydende.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af Geodatastyrelsen
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til gst@gst.dk.
