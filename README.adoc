@@ -1,0 +1,34 @@
+= Kodelisteregister
+:author: Klimadatastyrelsen
+:encoding: utf-8
+:lang: da
+:nofooter:
+
+[#abstract]
+Her er lister med koder, som indgår i nedenstående registre. Du kan finde det enkelte registers kodelister og få adgang til dem i forskellige formater.
+
+== Proof-of-concept
+
+WARNING: Dette repository er et proof-of-concept og indeholder p.t. ikke udgivede kodelister, kun test-kodelister.
+
+== Hvad er en kodeliste?
+
+En kodeliste er en samling af de relevante koder, som definerer et interesseområde. En kodeliste kan for eksempel være en liste med kommunenumre eller en liste med samtlige postnumre i Danmark. Kodelisterne fastlægger, hvilken kode der skal anvendes for en bestemt type information.
+
+== Kodelisterne er tilgængelig i flere formater
+
+Kodelisterne er tilgængelige i forskellige formater. Koderne ser du under de enkelte registres kodelister. De forskellige formater har hver deres egne anvendelsesområde. CSV kan eksempel anvendes til import til systemer til forvaltning af koderne. HTML til præsentation og formidling af viden om registrets koder.
+
+* https://www.rfc-editor.org/info/rfc4180[.csv (Comma-Separated Values)]
+* https://docs.oasis-open.org/codelist/genericode/v1.0/genericode-v1.0.html[.gc (Genericode)]
+* https://html.spec.whatwg.org/[.html (HyperText Markup Language)]
+
+== Kodelisterne kan have flere versioner
+
+Kodelisterne versioneres efter https://semver.org/lang/da/[semantisk versionering]. Et versionsnummer er opbygget af *MAJOR.MINOR.PATCH* f.eks. 1.0.0.
+
+En *major* ændring af kodelisten udtrykker, at en eller flere koder er udgået af listen. En *minor* ændring af kodelisten udtrykker, at en eller flere koder er tilføjet listen. En *patch* ændring af kodelisten udtrykker, at dokumentationen af listen eller af en kode er ændret.
+
+== Hvordan kommer mit register på?
+
+Er du som registeransvarlig organisation interesseret i at få kodelister her i kodelisteregistret, så læs denne https://confluence.sdfi.dk/x/AoBXCQ[vejledning].

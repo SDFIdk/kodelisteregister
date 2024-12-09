@@ -1,0 +1,22 @@
+= BBR
+:author: Vurderingsstyrelsen
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Bygninger%20og%20boliger/package-summary.html[objektkatalog^].
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kendetegnet ved at beskrive typer af bygninger og bl.a. installationer heri. Koderne er ikke i sig selv forklarende, og koden og navnet på koden er derfor ikke enslydende.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af Vurderingsstyrelsen
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til https://vurdst.dk/om-styrelsen/kontakt.
