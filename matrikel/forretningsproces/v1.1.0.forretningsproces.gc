@@ -3,7 +3,7 @@
    <Annotation>
       <Description xmlns:dcterms="http://purl.org/dc/terms/">
          <dcterms:description>Kodeliste til forretningsproces på matrikulær sag i matriklen. Den manuelle eller IT-understøttede proces hvori forretningsområdet håndterer hændelsen</dcterms:description>
-         <dcterms:provenance>Første version af kodelisten, anvendt i version 1.2.3 af metrikel modellen.</dcterms:provenance>
+         <dcterms:provenance>Tilføjet kode Regions- og kommunegrænse samt sat virkningsdato på Amts- og kommunegrænse</dcterms:provenance>
          <dcterms:language>da</dcterms:language>
          <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
          <dcterms:available>2024-12-11</dcterms:available>
@@ -12,12 +12,12 @@
    </Annotation>
    <Identification xmlns:dcterms="http://purl.org/dc/terms/">
       <ShortName>forretningsproces</ShortName>
-      <Version>1.0.0</Version>
+      <Version>1.1.0</Version>
       <CanonicalUri>urn:uuid:367c299b-44f7-4140-bdd4-7e29246d94a9</CanonicalUri>
-      <CanonicalVersionUri>urn:uuid:bbe1014f-f415-4dab-b4ac-4055582d9b2a</CanonicalVersionUri>
-      <LocationUri>https://sdfidk.github.io/kodelisteregister/matrikel/forretningsproces/v1.0.0.forretningsproces.gc</LocationUri>
-      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/matrikel/forretningsproces/v1.0.0.forretningsproces.csv</AlternateFormatLocationUri>
-      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/matrikel/forretningsproces/v1.0.0.forretningsproces.html</AlternateFormatLocationUri>
+      <CanonicalVersionUri>urn:uuid:12c3ad06-6e7c-4f58-8d8f-49afa358c56a</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/matrikel/forretningsproces/v1.1.0.forretningsproces.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/matrikel/forretningsproces/v1.1.0.forretningsproces.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/matrikel/forretningsproces/v1.1.0.forretningsproces.html</AlternateFormatLocationUri>
       <Agency>
          <LongName>Geodatastyrelsen</LongName>
       </Agency>
@@ -293,7 +293,9 @@
          <Value ColumnRef="virkningFra">
             <SimpleValue>2017-08-01</SimpleValue>
          </Value>
-         <Value ColumnRef="virkningTil"/>
+         <Value ColumnRef="virkningTil">
+            <SimpleValue>2021-07-12</SimpleValue>
+         </Value>
       </Row>
       <Row>
          <Value ColumnRef="kode">
@@ -468,6 +470,22 @@
          <Value ColumnRef="kommentar"/>
          <Value ColumnRef="virkningFra">
             <SimpleValue>2017-08-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Regions- og kommunegrænse</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Regions- og kommunegrænse</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>Sag vedr. registrering af regions- og/eller kommunegrænse.</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2021-07-12</SimpleValue>
          </Value>
          <Value ColumnRef="virkningTil"/>
       </Row>
