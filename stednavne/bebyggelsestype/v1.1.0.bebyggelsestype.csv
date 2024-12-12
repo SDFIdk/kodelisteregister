@@ -1,0 +1,12 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"andenBebyggelse","anden bebyggelse","område med bebyggelse m.m. til et særligt formål","fx kaserne eller asylcenter","2025-01-01",""
+"boligområde","boligområde","område med en mindre gruppe af bygninger","Ligger altid inden i en by. Mindre end kvarter","2025-01-01",""
+"by","by","samling af bygninger til beboelse samt bygninger til bymæssige formål","Ofte et område som er centrum for handel, administration og kultur. En by kan bestå af helt ned til to huse/gårde","2025-01-01",""
+"bydel","bydel","del af en by afgrænset ud fra administrative, historiske eller geografiske forhold","Ligger altid inden for en bygrænse","2025-01-01",""
+"campus","campus","samling af bygninger til undervisningsformål og tilhørende beboelse","I de tilfælde, hvor campus kun udgør en administrativ afgrænsning, som fx ved Københavns Universitet, undlades registrering.","2025-01-01",""
+"erhvervsområde","erhvervsområde","bebygget område præget af virksomheder","Behøver ikke at være en del af en by","2025-01-01",""
+"kvarter","kvarter","mindre lokalområde i en by, med et ensartet præg og karakter af samhørighed","Mindre end bydel","2025-01-01",""
+"sommerhusområde","sommerhusområde","område præget af huse til ophold i ferier og weekender","","2025-01-01",""
+"sommerhusområdedel","sommerhusområdedel","del af et sommerhusområde afgrænset ud fra administrative, historiske eller geografiske forhold","Ligger altid inden i et sommerhusområde.","2025-03-01",""
+"spredtBebyggelse","spredt bebyggelse","samling af bygninger, ofte gårde, uden egentlig bygningskoncentration","","2025-04-01",""
+"nyVærdi","ny værdi","definition","","2026-04-01",""
