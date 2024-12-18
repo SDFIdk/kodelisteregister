@@ -29,6 +29,14 @@ Kodelisterne versioneres efter https://semver.org/lang/da/[semantisk versionerin
 
 En *major* ændring af kodelisten udtrykker, at en eller flere koder er udgået af listen. En *minor* ændring af kodelisten udtrykker, at en eller flere koder er tilføjet listen. En *patch* ændring af kodelisten udtrykker, at dokumentationen af listen eller af en kode er ændret.
 
+== Hvordan kan jeg bruge en kodeliste?
+
+Kodelisterne udstilles her på siden, så du kan søge og se dokumentation om de enkelte koder, som indgår i data. Du kan også downloade kodelisterne og eksempelvis indarbejde dem i IT-system.
+
+Derimod må du ikke etablere en system-interegration direkte til filerne med koderne. Med andre ord: Kodelisteregistret udstiller ikke kodelisterne i et API. De er kun tilgængelige til download.
+
 == Hvordan kommer mit register på?
 
 Er du som registeransvarlig organisation interesseret i at få kodelister her i kodelisteregistret, så læs denne https://confluence.sdfi.dk/x/AoBXCQ[vejledning].
+
+Bemærk at der vil være sagsbehandlingstid forbundet med etablering af nye kodelister og ændring af eksisterende kodelister.
