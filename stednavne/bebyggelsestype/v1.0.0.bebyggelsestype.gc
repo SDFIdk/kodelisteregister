@@ -2,7 +2,6 @@
 <gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
    <Annotation>
       <Description xmlns:dcterms="http://purl.org/dc/terms/">
-         <dcterms:abstract>Bebyggelsestype er underinddeling af Bebyggelse på baggrund af bebyggelsens bygningsmæssige karakteristik</dcterms:abstract>
          <dcterms:description>Lorem ipsum odor amet, consectetuer adipiscing elit. Tellus leo non parturient a felis vulputate venenatis. Interdum aptent egestas pharetra duis faucibus finibus. Eu nulla adipiscing vitae fermentum pharetra class. Vulputate augue habitasse potenti fringilla etiam. Varius massa libero himenaeos, sed tempor tempus. Velit mauris et nostra nisl laoreet pulvinar varius lacinia. Dictum porttitor leo posuere justo pharetra; rhoncus mattis. Nisi fringilla pulvinar eu posuere velit montes.
 Nascetur aptent neque lobortis senectus viverra. Posuere porttitor justo sem quam habitasse. Sodales augue hendrerit volutpat in imperdiet malesuada. Blandit turpis mi suscipit vel id faucibus lobortis eros. Ullamcorper vestibulum diam consequat ante; cubilia metus suscipit. Duis fermentum taciti primis pulvinar iaculis; ornare porttitor. Lobortis suscipit cubilia; mi eleifend neque eu. Ut ante diam ut maximus ullamcorper.</dcterms:description>
          <dcterms:provenance>Version 1.0.0 stemmer overens med værdierne af enumerationen BebyggelseVærdi i grunddatamodellen version x.y.z af Danske Stednavne.</dcterms:provenance>
