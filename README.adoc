@@ -1,0 +1,38 @@
+= Kodelisteregister
+:author: Klimadatastyrelsen
+:encoding: utf-8
+:lang: da
+:nofooter:
+
+// Her er lister med koder, som indgår i nedenstående registre. Du kan finde det enkelte registers kodelister og få adgang til dem i forskellige formater.
+#Kodelisteregistret er p.t. tomt.# I fremtiden vil der her være lister med koder. Du ville kunne finde det enkelte registers kodelister og få adgang til dem i forskellige formater.
+
+== Hvad er en kodeliste?
+
+En kodeliste er en samling af de relevante koder, som definerer et interesseområde. En kodeliste kan for eksempel være en liste med kommunenumre eller en liste med samtlige postnumre i Danmark. Kodelisterne fastlægger, hvilken kode der skal anvendes for en bestemt type information.
+
+== Kodelisterne er tilgængelig i flere formater
+
+Kodelisterne er tilgængelige i forskellige formater. Koderne ser du under de enkelte registres kodelister. De forskellige formater har hver deres egne anvendelsesområde. CSV kan eksempel anvendes til import til systemer til forvaltning af koderne. HTML til præsentation og formidling af viden om registrets koder.
+
+* https://www.rfc-editor.org/info/rfc4180[.csv (Comma-Separated Values)]
+* https://docs.oasis-open.org/codelist/genericode/v1.0/genericode-v1.0.html[.gc (Genericode)]
+* https://html.spec.whatwg.org/[.html (HyperText Markup Language)]
+
+== Kodelisterne kan have flere versioner
+
+Kodelisterne versioneres efter https://semver.org/lang/da/[semantisk versionering]. Et versionsnummer er opbygget af *MAJOR.MINOR.PATCH* f.eks. 1.0.0.
+
+En *major* ændring af kodelisten udtrykker, at en eller flere koder er udgået af listen. En *minor* ændring af kodelisten udtrykker, at en eller flere koder er tilføjet listen. En *patch* ændring af kodelisten udtrykker, at dokumentationen af listen eller af en kode er ændret.
+
+== Hvordan kan jeg bruge en kodeliste?
+
+Kodelisterne udstilles her på siden, så du kan søge og se dokumentation om de enkelte koder, som indgår i data. Du kan også downloade kodelisterne og eksempelvis indarbejde dem i et it-system.
+
+Derimod må du ikke etablere en system-integration direkte til filerne med koderne. Med andre ord: Kodelisteregistret udstiller ikke kodelisterne i et API. De er kun tilgængelige til download.
+
+== Hvordan kommer mit register på?
+
+Er du som registeransvarlig organisation interesseret i at få kodelister her i kodelisteregistret, så læs denne https://confluence.sdfi.dk/x/AoBXCQ[vejledning].
+
+Bemærk at der vil være sagsbehandlingstid forbundet med etablering af nye kodelister og ændring af eksisterende kodelister.
