@@ -1,2 +1,6 @@
+# Configuration file for Asciidoctor in IDEs
 .asciidoctorconfig.adoc
+# Eclipse project description file
 .project
+# LibreOffice locks
+.~lock.*#
