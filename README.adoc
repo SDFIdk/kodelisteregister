@@ -4,8 +4,7 @@
 :lang: da
 :nofooter:
 
-// Her er lister med koder, som indgår i nedenstående registre. Du kan finde det enkelte registers kodelister og få adgang til dem i forskellige formater.
-#Kodelisteregistret er p.t. tomt.# I fremtiden vil der her være lister med koder. Du ville kunne finde det enkelte registers kodelister og få adgang til dem i forskellige formater.
+Denne side indeholder lister med koder, som indgår i nedenstående registre. Du kan finde kodelisterne og få adgang til dem i forskellige formater.
 
 == Hvad er en kodeliste?
 
