@@ -1,0 +1,22 @@
+= DAGI
+:author: Klimadatastyrelsen
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Danmarks%20Administrative%20Geografiske%20Inddeling/package-summary.html[objektkatalog^].
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kendetegnet ved at beskrive typer af aktører, processer mm. Koderne er i sig selv forklarende, og koden og navnet på koden er derfor enslydende.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af {author}
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til dagi@kds.dk.
