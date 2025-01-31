@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Annotation>
+      <Description xmlns:dcterms="http://purl.org/dc/terms/">
+         <dcterms:description>Liste med koder for den manuelle eller IT-understøttede proces, hvori forretningsområdet håndterer hændelsen.</dcterms:description>
+         <dcterms:provenance>Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2025-01-31</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification xmlns:dcterms="http://purl.org/dc/terms/">
+      <ShortName>forretningsproces</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:ab603eda-8466-4954-8cbd-d94f4707d435</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:65cb0828-48c4-479a-8fba-b962775bf441</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/dagi/forretningsproces/v1.0.0.forretningsproces.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/dagi/forretningsproces/v1.0.0.forretningsproces.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/dagi/forretningsproces/v1.0.0.forretningsproces.html</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet xmlns:dcterms="http://purl.org/dc/terms/">
+      <Column Id="kode" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="definition" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="kommentar" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="virkningFra" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList xmlns:dcterms="http://purl.org/dc/terms/">
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Dagisyseditor</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Dagisyseditor</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>Ændringen er foretaget i DAGIs forvaltningssystem</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-01-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DAGIGeneralisering</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DAGIGeneralisering</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>Ændringen er foretaget af DAGIs system til generalisering</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>Relevant for entiteterne: Afstemningsområde_2000000 Afstemningsområde_250000 Afstemningsområde_500000 Danmark_2000000 Danmark_250000 Danmark_500000 Kommuneinddeling_2000000 Kommuneinddeling_250000 Kommuneinddeling_500000 Landsdel_2000000 Landsdel_250000 Landsdel_500000 Opstillingskreds_2000000 Opstillingskreds_250000 Opstillingskreds_500000 Politikreds_2000000 Politikreds_250000 Politikreds_500000 Postnummerinddeling_2000000 Postnummerinddeling_250000 Postnummerinddeling_500000 Regionsinddeling_2000000 Regionsinddeling_250000 Regionsinddeling_500000 Retskreds_2000000 Retskreds_250000 Retskreds_500000 Sogneinddeling_2000000 Sogneinddeling_250000 Sogneinddeling_500000 Storkreds_2000000 Storkreds_250000 Storkreds_500000 SupplerendeBynavn_2000000 SupplerendeBynavn_250000 SupplerendeBynavn_500000 Valglandsdel_2000000 Valglandsdel_250000 Valglandsdel_500000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-01-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>gadepostnummerService</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>gadepostnummerService</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>Ændringen er foretaget via Danmarks Adresseregister</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>Kun relevant for Postnummerinddeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-01-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
