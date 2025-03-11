@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"ÆndretBekendtgørelse","ÆndretBekendtgørelse","Ændring som følge af kommunalbekendtgørelse","","2025-10-01",""
+"MatrikulærAjourføring","MatrikulærAjourføring","Matrikulære ændringer i Sogneinddelinger","","2025-10-01",""
+"GeoDanmarkTilpasning","GeoDanmarkTilpasning","Ændringer som følge af en topografisk tilpasning","","2025-10-01",""
+"Fejlrettelse","Fejlrettelse","Anvendes ved rettelse af forskellige fejl","","2025-10-01",""
+"KommunalAjourføring","KommunalAjourføring","Kommunen har ajourført objektet","Relevant for Afstemningsområder, Supplerende bynavne samt gadepostnumre","2025-10-01",""
+"Indberetning","Indberetning","Ved ændringer indberettet af Kirkeministeriet eller Trafikstyrelsen","Relevant for Sogneinddeling og Postnummerinddeling","2025-10-01",""
