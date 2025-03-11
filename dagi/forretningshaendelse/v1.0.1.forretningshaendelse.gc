@@ -6,6 +6,7 @@
          <dcterms:provenance>virkningFra er ændret pga. fejlindtastning.</dcterms:provenance>
          <dcterms:language>da</dcterms:language>
          <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2025-03-11</dcterms:available>
       </Description>
    </Annotation>
    <Identification xmlns:dcterms="http://purl.org/dc/terms/">
@@ -13,6 +14,9 @@
       <Version>1.0.1</Version>
       <CanonicalUri>urn:uuid:c45b1e24-9ac4-4424-a15b-f14a65d60b34</CanonicalUri>
       <CanonicalVersionUri>urn:uuid:25f21728-3120-4beb-af20-55dcd6c81432</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/dagi/forretningshaendelse/v1.0.1.forretningshaendelse.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/dagi/forretningshaendelse/v1.0.1.forretningshaendelse.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/dagi/forretningshaendelse/v1.0.1.forretningshaendelse.html</AlternateFormatLocationUri>
       <Agency>
          <LongName>Klimadatastyrelsen</LongName>
       </Agency>

@@ -6,6 +6,7 @@
          <dcterms:provenance>virkningFra er ændret pga. fejlindtastning, stavefejl rettet og definitioner for Kirkeministeriet og Trafikstyrelsen byttet om.</dcterms:provenance>
          <dcterms:language>da</dcterms:language>
          <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2025-03-11</dcterms:available>
       </Description>
    </Annotation>
    <Identification xmlns:dcterms="http://purl.org/dc/terms/">
@@ -13,6 +14,9 @@
       <Version>1.0.1</Version>
       <CanonicalUri>urn:uuid:6fd0defa-e93c-4f2a-832a-16db5d5b8852</CanonicalUri>
       <CanonicalVersionUri>urn:uuid:560ccd27-bcdf-4861-a9cd-f4085f3785b7</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.1.virkningsaktoer.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.1.virkningsaktoer.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.1.virkningsaktoer.html</AlternateFormatLocationUri>
       <Agency>
          <LongName>Klimadatastyrelsen</LongName>
       </Agency>
