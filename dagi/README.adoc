@@ -7,7 +7,7 @@
 :nofooter:
 
 [#abstract]
-Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Danmarks%20Administrative%20Geografiske%20Inddeling/package-summary.html[objektkatalog^].
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog_to_be/Danmarks%20Administrative%20Geografiske%20Inddeling/package-summary.html[objektkatalog^].
 
 [#description]
 == Beskrivelse
