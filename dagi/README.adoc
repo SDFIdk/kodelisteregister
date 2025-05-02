@@ -15,7 +15,7 @@ Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i 
 
 [#owner]
 == Ejer
-{doctitle} er ejet af {author}
+{doctitle} er ejet af {author}.
 
 [#contact]
 == Kontakt
