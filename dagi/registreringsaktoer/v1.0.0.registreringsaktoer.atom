@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">registreringsaktoer version 1.0.0</title>
+   <id>urn:uuid:bcc9790b-a9bd-495e-9684-dc4345fa1cc9</id>
+   <updated>2025-07-09T11:39:48Z</updated>
+   <published>2025-01-31T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dagi/registreringsaktoer/v1.0.0.registreringsaktoer.html"/>
+   <summary type="text">Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.</summary>
+   <content type="html">&lt;div&gt;Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.&lt;/div&gt;</content>
+</entry>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">forretningsproces version 1.0.1</title>
+   <id>urn:uuid:db6909d6-3910-49a4-86ce-e24f7324021d</id>
+   <updated>2025-07-09T11:39:49Z</updated>
+   <published>2025-03-11T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dagi/forretningsproces/v1.0.1.forretningsproces.html"/>
+   <summary type="text">virkningFra er ændret pga. fejlindtastning.</summary>
+   <content type="html">&lt;div&gt;virkningFra er ændret pga. fejlindtastning.&lt;/div&gt;</content>
+</entry>
