@@ -1,10 +1,14 @@
 = DAGI
+// built-in attributes (https://docs.asciidoctor.org/asciidoc/latest/attributes/built-in-attributes/)
 :author: Klimadatastyrelsen
 :description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
 :encoding: utf-8
 :keywords: kodeliste, genericode, grunddata
 :lang: da
 :nofooter:
+// custom attributes (https://docs.asciidoctor.org/asciidoc/latest/attributes/custom-attributes/)
+:identifier: urn:uuid:e3963989-f72e-4e44-9a5d-5ed19dfc8033
+:email: dagi@kds.dk
 
 [#abstract]
 Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog_to_be/Danmarks%20Administrative%20Geografiske%20Inddeling/package-summary.html[objektkatalog^].
@@ -19,4 +23,4 @@ Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i 
 
 [#contact]
 == Kontakt
-Spørgsmål til {doctitle}s kodelister skal rettes til dagi@kds.dk.
+Spørgsmål til {doctitle}s kodelister skal rettes til {email}.
