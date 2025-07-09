@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">forretningshaendelse version 1.0.1</title>
+   <id>urn:uuid:25f21728-3120-4beb-af20-55dcd6c81432</id>
+   <updated>2025-07-09T11:39:49Z</updated>
+   <published>2025-03-11T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dagi/forretningshaendelse/v1.0.1.forretningshaendelse.html"/>
+   <summary type="text">virkningFra er ændret pga. fejlindtastning.</summary>
+   <content type="html">&lt;div&gt;virkningFra er ændret pga. fejlindtastning.&lt;/div&gt;</content>
+</entry>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <link rel="self"
+         type="application/atom+xml"
+         href="https://sdfidk.github.io/kodelisteregister/dagi/feed.atom"/>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dagi/index.html"/>
+   <title>Kodelisteregister - DAGI</title>
+   <id>urn:uuid:e3963989-f72e-4e44-9a5d-5ed19dfc8033</id>
+   <author>
+      <name>Klimadatastyrelsen</name>
+      <email>dagi@kds.dk</email>
+   </author>
+   <updated>2025-07-09T11:50:34Z</updated>
+   <entry>
+      <title type="text">forretningshaendelse version 1.0.1</title>
+      <id>urn:uuid:25f21728-3120-4beb-af20-55dcd6c81432</id>
+      <updated>2025-07-09T11:39:49Z</updated>
+      <published>2025-03-11T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/forretningshaendelse/v1.0.1.forretningshaendelse.html"/>
+      <summary type="text">virkningFra er ændret pga. fejlindtastning.</summary>
+      <content type="html">&lt;div&gt;virkningFra er ændret pga. fejlindtastning.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsproces version 1.0.1</title>
+      <id>urn:uuid:db6909d6-3910-49a4-86ce-e24f7324021d</id>
+      <updated>2025-07-09T11:39:49Z</updated>
+      <published>2025-03-11T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/forretningsproces/v1.0.1.forretningsproces.html"/>
+      <summary type="text">virkningFra er ændret pga. fejlindtastning.</summary>
+      <content type="html">&lt;div&gt;virkningFra er ændret pga. fejlindtastning.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">registreringsaktoer version 1.0.1</title>
+      <id>urn:uuid:cc6e4c6c-47f6-45a4-be9d-ee66cf70f770</id>
+      <updated>2025-07-09T11:39:49Z</updated>
+      <published>2025-03-11T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/registreringsaktoer/v1.0.1.registreringsaktoer.html"/>
+      <summary type="text">virkningFra er ændret pga. fejlindtastning.</summary>
+      <content type="html">&lt;div&gt;virkningFra er ændret pga. fejlindtastning.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">virkningsaktoer version 1.0.1</title>
+      <id>urn:uuid:560ccd27-bcdf-4861-a9cd-f4085f3785b7</id>
+      <updated>2025-07-09T11:39:49Z</updated>
+      <published>2025-03-11T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.1.virkningsaktoer.html"/>
+      <summary type="text">virkningFra er ændret pga. fejlindtastning, stavefejl rettet og definitioner for Kirkeministeriet og Trafikstyrelsen byttet om.</summary>
+      <content type="html">&lt;div&gt;virkningFra er ændret pga. fejlindtastning, stavefejl rettet og definitioner for Kirkeministeriet og Trafikstyrelsen byttet om.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningshaendelse version 1.0.0</title>
+      <id>urn:uuid:5fd394fd-54b2-4c76-a94b-a71316796486</id>
+      <updated>2025-07-09T11:39:48Z</updated>
+      <published>2025-01-31T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/forretningshaendelse/v1.0.0.forretningshaendelse.html"/>
+      <summary type="text">Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.</summary>
+      <content type="html">&lt;div&gt;Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsproces version 1.0.0</title>
+      <id>urn:uuid:65cb0828-48c4-479a-8fba-b962775bf441</id>
+      <updated>2025-07-09T11:39:48Z</updated>
+      <published>2025-01-31T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/forretningsproces/v1.0.0.forretningsproces.html"/>
+      <summary type="text">Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.</summary>
+      <content type="html">&lt;div&gt;Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">registreringsaktoer version 1.0.0</title>
+      <id>urn:uuid:bcc9790b-a9bd-495e-9684-dc4345fa1cc9</id>
+      <updated>2025-07-09T11:39:48Z</updated>
+      <published>2025-01-31T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/registreringsaktoer/v1.0.0.registreringsaktoer.html"/>
+      <summary type="text">Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.</summary>
+      <content type="html">&lt;div&gt;Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">virkningsaktoer version 1.0.0</title>
+      <id>urn:uuid:385473d0-0eea-4f32-aaac-03ac4900ff1a</id>
+      <updated>2025-07-09T11:39:48Z</updated>
+      <published>2025-01-31T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dagi/virkningsaktoer/v1.0.0.virkningsaktoer.html"/>
+      <summary type="text">Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.</summary>
+      <content type="html">&lt;div&gt;Første version af kodelisten, anvendt i version 2.0.0 af DAGIs datamodel.&lt;/div&gt;</content>
+   </entry>
+</feed>
