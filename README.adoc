@@ -1,6 +1,8 @@
 = Kodelisteregister
 :author: Klimadatastyrelsen
+:description: Denne side indeholder lister med koder, som indgår i nedenstående registre. Du kan finde kodelisterne og få adgang til dem i forskellige formater.
 :encoding: utf-8
+:keywords: kodeliste, kodelister, genericode
 :lang: da
 :nofooter:
 
