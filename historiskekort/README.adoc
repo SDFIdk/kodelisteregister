@@ -1,0 +1,26 @@
+= Historiske kort
+// built-in attributes (https://docs.asciidoctor.org/asciidoc/latest/attributes/built-in-attributes/)
+:author: Klimadatastyrelsen
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode
+:lang: da
+:nofooter:
+// custom attributes (https://docs.asciidoctor.org/asciidoc/latest/attributes/custom-attributes/)
+:identifier: urn:uuid:d0c2eb3d-f0cd-441b-9568-15b8f67b03f3
+:email: historiskekort@kds.dk
+
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} på https://historiskekort.dk/.
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kendetegnet ved at beskrive typer og dækningsområder for historiske papirkort og flyfoto som over flere hundrede år er dannet, og hvor der nu ligger metadata for. Koderne er i sig selv forklarende, og koden og navnet på koden er derfor identiske.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af {author}.
+ 
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til {email}.
