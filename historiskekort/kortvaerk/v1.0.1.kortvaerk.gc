@@ -1,0 +1,3859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>Navnet på en logisk samling af skannede kort, fx atlasblade.</dcterms:description>
+         <dcterms:provenance>Rettet og/eller tilføjet kommentar til kodeliste værdier.</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2025-10-03</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>kortvaerk</ShortName>
+      <Version>1.0.1</Version>
+      <CanonicalUri>urn:uuid:e3f1f71a-b85f-43bc-80c4-187523f0f992</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:7557c217-8a07-4814-b94e-4db6f761da2d</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>1-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>1-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:100000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:100000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>1-cm kort, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>1-cm kort, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark produceret specifikt til forsvaret på grundlag af almindelige 1-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark produceret specifikt til Forsvaret på grundlag af almindelige 1-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>2-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>2-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:50000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:50000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>2-cm kort, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>2-cm kort, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark produceret specifikt til forsvaret på grundlag af almindelige 2-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark produceret specifikt til Forsvaret på grundlag af almindelige 2-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>4-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>4-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:25000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:25000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>4-cm kort, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>4-cm kort, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark produceret specifikt til forsvaret på grundlag af almindelige 4-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark produceret specifikt til Forsvaret på grundlag af almindelige 4-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>4-cm kort, særkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>4-cm kort, særkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort, som viser et samlet kort over et område, f.eks. en ø</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort, som viser et samlet kort over et område, f.eks. en ø</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Arkæologiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Arkæologiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort der viser placeringen af fortidsminder i det danske landsskab på baggrund af topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort der viser placeringen af fortidsminder i det danske landskab på baggrund af topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Atlasblade (1:40.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Atlasblade (1:40.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:40000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:40000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Atlasblade (1:80.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Atlasblade (1:80.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:80000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:80000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Atlasblade, kobberstik</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Atlasblade, kobberstik</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kobberstukkent topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:40000. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kobberstukken topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:40000.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Berggreens købstadskort, tegnede</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Berggreens købstadskort, tegnede</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over danske købstæder (undtagen sønderjyske købstæder) i tegnet udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over danske købstæder (undtagen sønderjyske købstæder) i tegnet udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Berggreens købstadskort, trykte</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Berggreens købstadskort, trykte</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over danske købstæder (undtagen sønderjyske købstæder) i trykt udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over danske købstæder (undtagen sønderjyske købstæder) i trykt udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Bornholmske atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Bornholmske atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Bornholm. Udgivet i mange udgaver fra 1870 til 1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Bornholm. Udgivet i mange udgaver fra 1870 til 1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Bykort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Bykort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over en række danske købstæder</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over en række danske købstæder</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Bymålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Bymålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over danske byer tegnet og opdateret i perioden 1843-1903</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over danske byer tegnet og opdateret i perioden 1843-1903</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Bymålinger, tillægsmålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Bymålinger, tillægsmålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort produceret som tillægsmålinger til Bymålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort produceret som tillægsmålinger til Bymålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>De sønderjyske enklaver, fordeling af sprog</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>De sønderjyske enklaver, fordeling af sprog</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort der giver oversigt over dansk- og tysktalende områder i Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort der giver oversigt over dansk- og tysktalende områder i Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DK flyfoto ruteoversigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DK flyfoto ruteoversigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DK flyfoto ruteoversigt 1961-1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DK flyfoto ruteoversigt 1961-1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i perioden 1961-1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i perioden 1961-1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DK flyfoto ruteoversigt 1970-2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DK flyfoto ruteoversigt 1970-2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i perioden 1970-2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i perioden 1970-2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DK flyfoto ruteoversigt Basic Cover 1945</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DK flyfoto ruteoversigt Basic Cover 1945</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i 1945</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i 1945</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DK flyfoto ruteoversigt Basic Cover 1954</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DK flyfoto ruteoversigt Basic Cover 1954</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i 1954</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt fra dansk overflyvning i 1954</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Dronningens Håndbibliotek, del</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Dronningens Håndbibliotek, del</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort der stammer fra Dronningens Håndbibliotek</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort der stammer fra Dronningens Håndbibliotek</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Flyfoto 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Flyfoto 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>dansk Flyfoto optaget i perioden 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>dansk Flyfoto optaget i perioden 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Flyfoto Basic Cover</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Flyfoto Basic Cover</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfotos over Danmark optaget af det engelske og amerikanske militær i 1945 og 1954</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfotos over Danmark optaget af det engelske og amerikanske militær i 1945 og 1954</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Flyfoto Forårsflyfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Flyfoto Forårsflyfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfotos over Danmark optaget før løvspring</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfotos over Danmark optaget før løvspring</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Flyfoto Sommerflyfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Flyfoto Sommerflyfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfotos over Danmark optaget efter løvspring</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfotos over Danmark optaget efter løvspring</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO 1:1.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO 1:1.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:1.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:1.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO 1:200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO 1:200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO 1:500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO 1:500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO diverse topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO diverse topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Færøerne i diverse størrelsesforhold</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Færøerne i diverse størrelsesforhold</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO flyfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO flyfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfoto over Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfoto over Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO flyfoto ruteoversigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO flyfoto ruteoversigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt over Færøerne. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt over Færøerne.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO første opmåling</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO første opmåling</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Færøerne fra perioden 1895-1899</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Færøerne fra perioden 1895-1899</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO ICAO</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO ICAO</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ICAO Luftfartskort over Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>ICAO Luftfartskort over Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO kortbladsinddeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO kortbladsinddeling</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over den færøske kortbladsinddeling 2. og 3. udgave. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over den færøske kortbladsinddeling 2. og 3. udgave.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO målebordsblade 1. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO målebordsblade 1. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Færøerne. Udgaver fra ca. 1901</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Færøerne. Udgaver fra ca. 1901</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO målebordsblade 2. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO målebordsblade 2. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Færøerne. Nye udgaver fra 1941</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Færøerne. Nye udgaver fra 1941</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO målebordsblade 3. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO målebordsblade 3. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Færøerne. Nye udgaver fra 1987</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Færøerne. Nye udgaver fra 1987</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO stednavnekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO stednavnekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Færøerne der angiver stednavnes områdeafgrænsning</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Færøerne der angiver stednavnes områdeafgrænsning</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO Søkort - Færøernes opmåling</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO Søkort - Færøernes opmåling</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>søkort over færøske farvande</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>søkort over færøske farvande</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO topografisk atlas</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO topografisk atlas</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO turistkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO turistkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over udvalgte færøske egne med indtegnede vandreruter fra 1963</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over udvalgte færøske egne med indtegnede vandreruter fra 1963</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>FO, Rentegninger til 3.udgave målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>FO, Rentegninger til 3.udgave målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Færøerne. Kortene er lavet som rentegninger til 3. udgave af de færøske målebordsblade. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Færøerne. Kortene er lavet som rentegninger til 3. udgave af de færøske målebordsblade.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Foreløbige atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Foreløbige atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark trykt mellem 1902 og 1904 i målestoksforholdet 1:40000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark trykt mellem 1902 og 1904 i målestoksforholdet 1:40000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Fredede bygninger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Fredede bygninger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Danmark med angivelser af fredede bygninger eller byer med fredet bebyggelse. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Danmark med angivelser af fredede bygninger eller byer med fredet bebyggelse.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Fyr</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Fyr</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>tegninger af fyr og sømærker i områderne Danmark, Slesvig og Holsten</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>tegninger af fyr og sømærker i områderne Danmark, Slesvig og Holsten</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Gedde (København)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gedde (København)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Københavns tolv kvarterer fra 1757 forfærdiget af Christian Gedde. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Københavns tolv kvarterer fra 1757 udfærdiget af Christian Gedde.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Generalkvartermesterstaben</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Generalkvartermesterstaben</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Danmark tegnet i perioden 1808-1862</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Danmark tegnet i perioden 1808-1862</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Generalstabskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Generalstabskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark udgivet i perioden 1843-1928</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark udgivet i perioden 1843-1928</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Gentoftes udskiftning</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gentoftes udskiftning</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>special kort der viser Gentoftes marker før og efter fællesskabets ophævelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>special kort der viser Gentoftes marker før og efter fællesskabets ophævelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:1.000.000 ICAO</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:1.000.000 ICAO</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>iCAO luftfartskort over Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>ICAO luftfartskort over Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:10.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:10.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Grønland med danske stedangivelser fra perioden 1937-1985</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Grønland med danske stedangivelser fra perioden 1937-1985</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Grønland i størrelsesforholdet 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Grønland i størrelsesforholdet 1:100.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:2.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:2.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Grønland der blandt andet angiver kolonier, handelssteder og beboelse. Kortene er fra perioden 1906-1969</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Grønland der blandt andet angiver kolonier, handelssteder og beboelse. Kortene er fra perioden 1906-1969</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:2.500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:2.500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Grønland fra 1963 og 1994</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Grønland fra 1963 og 1994</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:250.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:250.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Grønland i størrelsesforholdet 1:250.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Grønland i størrelsesforholdet 1:250.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:5.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:5.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Grønland fra perioden 1965-1982</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Grønland fra perioden 1965-1982</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL 1:50.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL 1:50.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Grønland fra perioden 1950-1993</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Grønland fra perioden 1950-1993</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Administrative inddelinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Administrative inddelinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Grønland med angivelse af søgrænser fra 2009 og med angivelse landsrådskredse og kommunegrænser fra 1911. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Grønland med angivelse af søgrænser fra 2009 og med angivelse landsrådskredse og kommunegrænser fra 1911.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Fangsthytter</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Fangsthytter</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over dele af Grønland med angivelse af fangsthytter</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over dele af Grønland med angivelse af fangsthytter</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Flyfoto 1:150.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Flyfoto 1:150.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfotos over Grønland optaget til kortlægning af Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfotos over Grønland optaget til kortlægning af Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL flyfoto 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL flyfoto 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>grøndlandske flyfoto fra perioden 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>grøndlandske flyfoto fra perioden 1940-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL flyfoto EGIG</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL flyfoto EGIG</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfotos over Grønland optaget i forbindelse med Expédition Glaciologique Internationale au Groenland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfotos over Grønland optaget i forbindelse med Expédition Glaciologique Internationale au Groenland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL flyfoto ruteoversigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL flyfoto ruteoversigt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyruteoversigt over Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyruteoversigt over Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL flyfoto ældre</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL flyfoto ældre</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>flyfotos optaget til kortlægning af Grønland i perioden 1932-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>flyfotos optaget til kortlægning af Grønland i perioden 1932-1960</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL kolonikort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL kolonikort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over byer og bygder på Grønland. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over byer og bygder på Grønland.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Kortbladsinddelinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Kortbladsinddelinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Grønland med diverse kortbladsinddelinger fra perioden 1934-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Grønland med diverse kortbladsinddelinger fra perioden 1934-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Lauge Kochs grønlandskort i Haag</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Lauge Kochs grønlandskort i Haag</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over dele af Grønland. Brugt ved domstolen i Haag</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over dele af Grønland. Brugt ved domstolen i Haag</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Lauge Kochs nordgrønlandskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Lauge Kochs nordgrønlandskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over dele af Nordgrønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over dele af Nordgrønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL ortofotokort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL ortofotokort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Grønland på baggrund af ortofoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Grønland på baggrund af ortofoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Sirius G500</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Sirius G500</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske særkort over Siriuspatruljens område i Grønland fra 1999</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske særkort over Siriuspatruljens område i Grønland fra 1999</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Skærgårdskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Skærgårdskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over grønlandske skærgårde fra perioden 1949-1971</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over grønlandske skærgårde fra perioden 1949-1971</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL topografiske kort produceret i USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL topografiske kort produceret i USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Grønland produceret i USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Grønland produceret i USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>GL Grønlands Topografiske Kortværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>GL Grønlands Topografiske Kortværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Gliemanns amtskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gliemanns amtskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortværk over danske amter fra perioden 1825-1895</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kortværk over danske amter fra perioden 1825-1895</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Grolau</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grolau</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over de jyske heder tegnet i forbindelse med fastsætning af grænser mellem kongens og bøndernes jorder. Kortene viser primært topografi. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over de jyske heder tegnet i forbindelse med fastsætning af grænser mellem kongens og bøndernes jorder. Kortene viser primært topografi.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Grundtakstkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grundtakstkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort med optegning af udvalgte købstæders grunde opmålt i perioden 1790 til 1856</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort med optegning af udvalgte købstæders grunde opmålt i perioden 1790 til 1856</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Grænsekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grænsekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort der dokumenterer landegrænsen mellem Slesvig og Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort der dokumenterer landegrænsen mellem Slesvig og Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Grønlands geologi</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grønlands geologi</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Grønland der viser geologiske forhold</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Grønland der viser geologiske forhold</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Herredskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Herredskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikulære kort der er skabt ved sammentegning af minorerede sognekort, der igen er formindskede udgaver af original 1 kortene</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikulære kort der er skabt ved sammentegning af minorerede sognekort, der igen er formindskede udgaver af original 1 kortene</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Herredskort, diverse</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Herredskort, diverse</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikulære kort med danske herreder fra perioden 1765-1785</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikulære kort med danske herreder fra perioden 1765-1785</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Holstein-Lauenburg i VIII blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Holstein-Lauenburg i VIII blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over hertugdømmerne Holsten og Lauenborg udgivet i 8 blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over hertugdømmerne Holsten og Lauenborg udgivet i 8 blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>ICAO</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>ICAO</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>iCAO Luftfartskort fra 1953</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>ICAO Luftfartskort fra 1953</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Indsøkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Indsøkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over danske søer fra perioden 1872-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over danske søer fra perioden 1872-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Jernbanekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Jernbanekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over det danske jernbanenet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over det danske jernbanenet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Jordbundskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Jordbundskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over den danske jordbund fra 1935</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over den danske jordbund fra 1935</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Konsumtionsgrænsekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Konsumtionsgrænsekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over de danske købstæder fra starten af 1800-tallet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over de danske købstæder fra starten af 1800-tallet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Kortbladsoversigter</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Kortbladsoversigter</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>oversigtskort over forskellige danske kortbladsinddelinger.</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>oversigtskort over forskellige danske kortbladsinddelinger.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>København ajourførte matrikulære kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>København ajourførte matrikulære kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikelkort over København fra perioden 1689-1990</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikelkort over København fra perioden 1689-1990</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (1:10.000, yngre udgave)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (1:10.000, yngre udgave)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn fra 1876</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn fra 1876</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (1:10.000, ældre udgave)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (1:10.000, ældre udgave)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn fra 1848</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn fra 1848</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (1:15.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (1:15.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1936-1951</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1936-1951</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (1:17.500)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (1:17.500)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1953-1968</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1953-1968</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (1:25.000, gammel udgave)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (1:25.000, gammel udgave)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1906-1907</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1906-1907</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (1:60.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (1:60.000)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1828-1830</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn fra perioden 1828-1830</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn (fortrolige)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn (fortrolige)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Københavns omegn. Kortene har været betragtet som fortrolige idet de viser militære anlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Københavns omegn. Kortene har været betragtet som fortrolige idet de viser militære anlæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Københavns omegn i VI blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns omegn i VI blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>disse kort dækker Københavnsområdet fra Farum i nordvest til Hundige i sydvest. af anden halvdel af 1800-tallet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>disse kort dækker Københavnsområdet fra Farum i nordvest til Hundige i sydvest. af anden halvdel af 1800-tallet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landdomænekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landdomænekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikelkort over danske landdomæner fra perioden 1785-1921</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikelkort over danske landdomæner fra perioden 1785-1921</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landøkonomiske kort, Christianssæde</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landøkonomiske kort, Christianssæde</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over dele af Fuglse herred på Lolland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over dele af Fuglse herred på Lolland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landøkonomiske kort, Randers Fjord</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landøkonomiske kort, Randers Fjord</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Randersfjord fra 1869</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Randersfjord fra 1869</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landøkonomiske kort, Reventlow</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landøkonomiske kort, Reventlow</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over hovedgårdsjorder på Lolland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over hovedgårdsjorder på Lolland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landøkonomiske kort, Skjern Å</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landøkonomiske kort, Skjern Å</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Skjern Ås vanddistrikt fra 1848</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Skjern Ås vanddistrikt fra 1848</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landøkonomiske kort, Skjern Å (skuffe N)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landøkonomiske kort, Skjern Å (skuffe N)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>landøkonomiske kort indsamlet i forbindelse med landvinding fra området omkring Skjern Å</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>landøkonomiske kort indsamlet i forbindelse med landvinding fra området omkring Skjern Å</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Landøkonomiske kort, Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Landøkonomiske kort, Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Luftmeldekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Luftmeldekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>oversigt over danske luftmeldestationer til observation af aeronautiske fartøjer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>oversigt over danske luftmeldestationer til observation af aeronautiske fartøjer</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Lægdinddelingskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lægdinddelingskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>administrativt kort. Kortene viser inddeling i danske Lægder - det vil militære udskrivningsområder</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>administrativt kort. Kortene viser inddeling i danske Lægder - det vil militære udskrivningsområder</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Magelæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Magelæg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske magelægskort udarbejdet i forbindelse med udskiftningen i slutningen af 1700-tallet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske magelægskort udarbejdet i forbindelse med udskiftningen i slutningen af 1700-tallet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Mansa</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Mansa</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Danmark undtagen Sønderjylland lavet af J.H. Mansa (Ridder af Dannebrog)</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Danmark undtagen Sønderjylland lavet af J.H. Mansa (Ridder af Dannebrog)</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Matrikuleringen af de sønderjyske enklaver</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Matrikuleringen af de sønderjyske enklaver</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikelkort over Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikelkort over Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Mejer</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Mejer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Danmark af Johannes Mejer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Danmark af Johannes Mejer</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Målebordsblade, farvemønsterblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Målebordsblade, farvemønsterblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark der definerer farvelægningen for andre målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark der definerer farvelægningen for andre målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Målebordsblade, gradafdelte</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Målebordsblade, gradafdelte</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i perioden 1866-1890, opmålt i perioden 1842-1888</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i perioden 1866-1890, opmålt i perioden 1842-1888</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Målebordsblade, høje</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Målebordsblade, høje</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i perioden 1866-1899, opmålt i perioden 1842-1899. Kortværket dækker ikke Sønderjylland/Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i perioden 1866-1899, opmålt i perioden 1842-1899. Kortværket dækker ikke Sønderjylland/Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Målebordsblade, høje (fortrolige)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Målebordsblade, høje (fortrolige)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Vestvolden. Opmålt og udgivet i perioden 1898-1900</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Vestvolden. Opmålt og udgivet i perioden 1898-1900</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Målebordsblade, lave</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Målebordsblade, lave</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner i perioden 1901-1971 (dog kun vedligeholdt sporadisk efter 1953). </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk over Danmark. Udgivet i flere versioner i perioden 1901-1971 (dog kun vedligeholdt sporadisk efter 1953).</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Nymålingskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Nymålingskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikulære nymålinger til brug for matrikelkortet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikulære nymålinger til brug for matrikelkortet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Opmålingsdistrikter</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Opmålingsdistrikter</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>administrative oversigtskort der viser Danmarks inddeling i opmålingsdistrikter</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>administrative oversigtskort der viser Danmarks inddeling i opmålingsdistrikter</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Original 1</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Original 1</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>første generation af gældende danske matrikelkort udarbejdet i årene 1806-1822 - dog 1863-1880 i købstæderne</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>første generation af gældende danske matrikelkort udarbejdet i årene 1806-1822 - dog 1863-1880 i købstæderne</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Original 2</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Original 2</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>gældende danske matrikelkort, der opdateredes løbende med matrikulære ændringer. Kortene udarbejdet i perioden ca. 1860-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>gældende danske matrikelkort, der opdateredes løbende med matrikulære ændringer. Kortene udarbejdet i perioden ca. 1860-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Original 2, supplerende</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Original 2, supplerende</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>supplerende kort til gældende danske matrikelkort, der opdateredes løbende med matrikulære ændringer. Kortene er udarbejdet i perioden ca. 1860-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>supplerende kort til gældende danske matrikelkort, der opdateredes løbende med matrikulære ændringer. Kortene er udarbejdet i perioden ca. 1860-1997</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Preussiske kort, diverse</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Preussiske kort, diverse</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Slesvig produceret af Preussen i perioden 1864-1920, da Slesvig var en del af Preussen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Slesvig produceret af Preussen i perioden 1864-1920, da Slesvig var en del af Preussen</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Preussiske målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Preussiske målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Slesvig produceret af Preussen i perioden 1864-1920, da Slesvig var en del af Preussen. Kortværket er produceret ved målebord i marken - heraf navnet. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Slesvig produceret af Preussen i perioden 1864-1920, da Slesvig var en del af Preussen. Kortværket er produceret ved målebord i marken - heraf navnet.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Prøvekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Prøvekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Danmark lavet fra opmålinger produceret i forbindelse eksamener for landinspektørstuderende</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Danmark lavet fra opmålinger produceret i forbindelse eksamener for landinspektørstuderende</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rawert</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rawert</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Nordsjælland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Nordsjælland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rekognosceringer til generalstabskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rekognosceringer til generalstabskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>undersøgelser i marken til topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>undersøgelser i marken til topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rekognosceringer til målebordsblade - København 1911</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rekognosceringer til målebordsblade - København 1911</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>undersøgelser i marken til målebordsblade, fra Københavnsområdet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>undersøgelser i marken til målebordsblade, fra Københavnsområdet</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rekognosceringer til målebordsblade - Mølleåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rekognosceringer til målebordsblade - Mølleåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>undersøgelser i marken til målebordsblade, fra området omkring Mølleåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>undersøgelser i marken til målebordsblade, fra området omkring Mølleåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rekognosceringer til Slesvigs Fastland i VI blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rekognosceringer til Slesvigs Fastland i VI blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>forlæg til topografiske kort over Slesvig produceret 1850-1854</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>forlæg til topografiske kort over Slesvig produceret 1850-1854</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rets- og politikredse, amter, kommuner og regioner</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rets- og politikredse, amter, kommuner og regioner</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over danske Rets- og politikredse, amter, kommuner og regioner</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over danske Rets- og politikredse, amter, kommuner og regioner</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Rytterdistriktskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rytterdistriktskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>de ældre rytterdistriktskort fra 1720’erne er topografiske kort over Danmark med angivelse af bebyggelse og i mindre grad arealanvendelse. Angivelse af ryttergårdene er vigtigste tema</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>de ældre rytterdistriktskort fra 1720’erne er topografiske kort over Danmark med angivelse af bebyggelse og i mindre grad arealanvendelse. Angivelse af ryttergårdene er vigtigste tema</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Signaturforklaringer, topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Signaturforklaringer, topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort med signaturforklaringer til topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort med signaturforklaringer til topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Signaturforklaringer, økonomiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Signaturforklaringer, økonomiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort med signaturforklaringer til økonomiske kort. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort med signaturforklaringer til økonomiske kort.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Skolekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skolekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort produceret til skoleundervisning. Viser geologi, kulturhistorie, topografi mm. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort produceret til skoleundervisning. Viser geologi, kulturhistorie, topografi mm.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Skovdistriktskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skovdistriktskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>administrative kort over danske skovdistrikter</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>administrative kort over danske skovdistrikter</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Slesvig, du Plats kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Slesvig, du Plats kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk militært kort over Slesvig i målestokken 1:57.600. Kortværket er produceret i årene 1804-1805</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk militært kort over Slesvig i målestokken 1:57.600. Kortværket er produceret i årene 1804-1805</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Slesvigs Fastland i VI blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Slesvigs Fastland i VI blade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kort over Slesvig produceret 1850-1854</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kort over Slesvig produceret 1850-1854</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sognekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sognekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>matrikulære kort over Danmark der er skabt ved sammentegning og minorering af original 1 kortene, således at alle et sogns ejerlav ses på ét enkelt kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikulære kort over Danmark der er skabt ved sammentegning og minorering af original 1 kortene, således at alle et sogns ejerlav ses på ét enkelt kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sogneskelskort, 4cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sogneskelskort, 4cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort hvor danske sogneskel og ændringer i disse markeret på 4-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort hvor danske sogneskel og ændringer i disse markeret på 4-cm kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sogneskelskort, målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sogneskelskort, målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort hvor danske sogneskel og ændringer i disse markeret på målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort hvor danske sogneskel og ændringer i disse markeret på målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sterms pastoratkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sterms pastoratkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort dækkende de fleste sogne i Københavnsområdet (ca. det tidligere HT-område)</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort dækkende de fleste sogne i Københavnsområdet (ca. det tidligere HT-område)</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Stormfloden 1872</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Stormfloden 1872</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort der dokumenterer oversvømmede områder m.v. ved stormfloden i 1872</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort der dokumenterer oversvømmede områder m.v. ved stormfloden i 1872</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Stormfloden 1872 (sammentegninger)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Stormfloden 1872 (sammentegninger)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>sammentegninger af de kort der dokumenterer oversvømmede områder m.v. ved stormfloden i 1872</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>sammentegninger af de kort der dokumenterer oversvømmede områder m.v. ved stormfloden i 1872</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>System 34/45</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>System 34/45</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>inddeling og nummerering af matrikelkort i System 1934</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>inddeling og nummerering af matrikelkort i System 1934</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søgrænser</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søgrænser</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>søkort som viser udvalgte landes søgrænser</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>søkort som viser udvalgte landes søgrænser</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort DK atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort DK atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over de danske farvande inddelt i atlasblade fra perioden 1911-1957</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over de danske farvande inddelt i atlasblade fra perioden 1911-1957</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort DK opmålingsoversigter</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort DK opmålingsoversigter</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>opmålingsoversigter af danske søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>opmålingsoversigter af danske søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort GL egenproduktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort GL egenproduktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>grønlandske egenproducerede søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>grønlandske egenproducerede søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort GL opmålingsoversigter</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort GL opmålingsoversigter</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>opmålingsoversigter af grønlandske søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>opmålingsoversigter af grønlandske søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort GL, Grønlands Styrelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort GL, Grønlands Styrelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>grønlandske søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>grønlandske søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort GL, produceret af USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort GL, produceret af USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>grønlandske søkort produceret af USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>grønlandske søkort produceret af USA</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort Island atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort Island atlasblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over de islandske farvande inddelt i atlasblade fra 1940</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over de islandske farvande inddelt i atlasblade fra 1940</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort opmålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort opmålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>diverse søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>diverse søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort, antikke</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort, antikke</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre søkort, til ca. 1850. Ofte ikke af egen produktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>ældre søkort, til ca. 1850. Ofte ikke af egen produktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort, Grønlands Styrelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort, Grønlands Styrelse</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort, henlæggelser af egen produktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort, henlæggelser af egen produktion</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>dansk producerede henlagte søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>dansk producerede henlagte søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort, signaturforklaringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort, signaturforklaringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>signaturforklaringer og forkortelser i danske søkort. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>signaturforklaringer og forkortelser i danske søkort.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sønderjyske originalkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sønderjyske originalkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>supplerings- og matrikelkort over Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>supplerings- og matrikelkort over Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sønderjyske sognekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sønderjyske sognekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>minoreret matrikelkort over sønderjyske sogne fra 1963</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>minoreret matrikelkort over sønderjyske sogne fra 1963</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:1.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:1.000.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kort dækkende hele landet fra perioden 1924-1963</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kort dækkende hele landet fra perioden 1924-1963</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:1.200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:1.200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1928-1969. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1928-1969.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:150.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:150.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1929-1941</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1929-1941</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:150.000 nyt færdselskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:150.000 "nyt færdselskort"</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske færdselskort fra perioden 1939-1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske færdselskort fra perioden 1939-1970</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:160.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:160.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortvært fra perioden 1909-1929</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortvært fra perioden 1909-1929</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:160.000 generalkort over Fyn og Sjælland</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:160.000 generalkort over Fyn og Sjælland</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske generalkort over Fyn of Sjælland fra perioden 1869-1878</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske generalkort over Fyn of Sjælland fra perioden 1869-1878</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:160.000 generalkort over Jylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:160.000 generalkort over Jylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske generalkort over Jylland fra perioden 1880-1881</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske generalkort over Jylland fra perioden 1880-1881</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:200.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1928-1969. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1928-1969.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:200.000 færdselskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:200.000 færdselskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske færdselskort fra perioden 1987-2002</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske færdselskort fra perioden 1987-2002</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:200.000, forsvaret TN</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:200.000, forsvaret TN</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1900-2006. Kortværk fremstillet til brug for forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1900-2006. Kortværk fremstillet til brug for forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:240.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:240.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:250.000, forsvaret TFCL</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:250.000, forsvaret TFCL</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 2001-2012. Kortværk fremstillet til brug for forsvaret, Transit Flying Chart Low Level</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 2001-2012. Kortværk fremstillet til brug for forsvaret, Transit Flying Chart Low Level</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:300.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:300.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1950-1956</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1950-1956</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:300.000 autokort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:300.000 autokort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1933-1951. Autokort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1933-1951. Autokort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:300.000 plakat</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:300.000 plakat</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>plakat med topografisk kort dækkende Danmark fra 1989</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>plakat med topografisk kort dækkende Danmark fra 1989</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:320.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:320.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1920-1945</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1920-1945</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:320.000 ældre udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:320.000 ældre udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden før 1920</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden før 1920</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:480.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:480.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>dansk topografisk kort fra 1846</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>dansk topografisk kort fra 1846</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:500.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kort fra perioden 1924-2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kort fra perioden 1924-2003</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:500.000 The World</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:500.000 "The World"</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 1973-2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 1973-2007</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:500.000, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:500.000, forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kortværk fra perioden 2005-2007. Kortværk fremstillet til brug for forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kortværk fra perioden 2005-2007. Kortværk fremstillet til brug for forsvaret</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:640.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:640.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>dansk topografisk kort fra 1907</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>dansk topografisk kort fra 1907</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort 1:750.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort 1:750.000</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>danske topografiske kort fra perioden 1931-1982</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>danske topografiske kort fra perioden 1931-1982</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, diverse</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, diverse</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>blandede topografiske kort over Danmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>blandede topografiske kort over Danmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Gudenåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Gudenåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over arealerne langs Gudenåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over arealerne langs Gudenåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Gudenåen (rentegninger)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Gudenåen (rentegninger)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>rentegninger af topografiske kort over arealerne langs Gudenåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>rentegninger af topografiske kort over arealerne langs Gudenåen</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Holstein-Lauenburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Holstein-Lauenburg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske enkeltkort over hertugdømmerne Holsten og Lauenborg. </SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske enkeltkort over hertugdømmerne Holsten og Lauenborg.</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Høje Møn</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Høje Møn</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over den østlige del af Møn</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over den østlige del af Møn</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, rentegninger, kalker</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, rentegninger, kalker</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>forlæg til topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>forlæg til topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Skjern og Omme Å</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Skjern og Omme Å</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over arealerne langs Skjern og Omme Åer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over arealerne langs Skjern og Omme Åer</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Slesvig fra perioden 1825-1851</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Slesvig fra perioden 1825-1851</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, særmålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, særmålinger</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over særmålinger af dele af Jylland. Inddelt efter amter</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over særmålinger af dele af Jylland. Inddelt efter amter</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, øresundsregionen</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Øresundsregionen</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Øresundsregionen fra perioden 1999-2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Øresundsregionen fra perioden 1999-2001</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Topografiske kort, Aarhus</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Topografiske kort, Aarhus</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Århus</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Århus</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Trap, tegnede kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Trap, tegnede kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>forarbejder til kort over danske købstæderne og deres landsogne produceret til Trap Danmarks 1. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>forarbejder til kort over danske købstæderne og deres landsogne produceret til Trap Danmarks 1. udgave</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Triangulationsnettet</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Triangulationsnettet</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Danmark med triangulationsnet fra 1939</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Danmark med triangulationsnet fra 1939</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Turistkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Turistkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over udvalgte danske områder, der udgivet i falsede udgaver henvendt til turister</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over udvalgte danske områder, der udgivet i falsede udgaver henvendt til turister</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Udskiftningskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Udskiftningskort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over Danmark produceret til jordfordeling i forbindelse med udskiftningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over Danmark produceret til jordfordeling i forbindelse med udskiftningen</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vandbygningskort (skuffe L)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vandbygningskort (skuffe L)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>landøkonomiske kort over Danmark indsamlet i forbindelse med landvinding af Falster</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>landøkonomiske kort over Danmark indsamlet i forbindelse med landvinding af Falster</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vandbygningskort (skuffe M)</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vandbygningskort (skuffe M)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>landøkonomiske kort over Danmark indsamlet i forbindelse med landvinding Lammefjorden</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>landøkonomiske kort over Danmark indsamlet i forbindelse med landvinding Lammefjorden</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Varendorf</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Varendorf</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over hertugdømmet Holsten. Fremstillet til militære formål</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over hertugdømmet Holsten. Fremstillet til militære formål</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vejklassificering</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejklassificering</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort over danske landeveje, offentlige biveje og vandløb fra perioden 1936-1967</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort over danske landeveje, offentlige biveje og vandløb fra perioden 1936-1967</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vejkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort fremstillet i forbindelse med anlæg af de nye danske landeveje 1750-1820, gerne visende det gamle vejforløb</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort fremstillet i forbindelse med anlæg af de nye danske landeveje 1750-1820, gerne visende det gamle vejforløb</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vestindien, topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Videnskabernes Selskab, trigonometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Vestindien fra perioden 1754-1934</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografiske kort over Vestindien fra perioden 1754-1934</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Videnskabernes Selskab, trigonometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Videnskabenes Selskab, trigonometri</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>arbejdstegninger produceret i forbindelse med produktionen af Videnskabernes Selskabs kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>arbejdstegninger produceret i forbindelse med produktionen af Videnskabernes Selskabs kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Videnskabernes Selskab</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Videnskabernes Selskab</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografisk kortværk udarbejdet og udgivet af Det Kongelige Danske Videnskabernes Selskab i perioden 1766-1841</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>topografisk kortværk udarbejdet og udgivet af Det Kongelige Danske Videnskabernes Selskab i perioden 1766-1841</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Videnskabernes Selskab, koncept</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Videnskabernes Selskab, koncept</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>forlæg til de trykte Videnskabernes Selskabs kort. Kortene er i større målestok og indeholder flere topografiske landskabselementer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>forlæg til de trykte Videnskabernes Selskabs kort. Kortene er i større målestok og indeholder flere topografiske landskabselementer</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ældste originalkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ældste originalkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kort indsamlet fra fx godser i forbindelse med matrikuleringen, men kortene har ikke fået status af officielle matrikelkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kort indsamlet fra fx godser i forbindelse med matrikuleringen, men kortene har ikke fået status af officielle matrikelkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
