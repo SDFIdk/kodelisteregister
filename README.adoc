@@ -26,6 +26,10 @@ Kodelisterne versioneres efter https://semver.org/lang/da/[semantisk versionerin
 
 En *major* ændring af kodelisten udtrykker, at en eller flere koder er udgået af listen. En *minor* ændring af kodelisten udtrykker, at en eller flere koder er tilføjet listen. En *patch* ændring af kodelisten udtrykker, at dokumentationen af listen eller af en kode er ændret.
 
+== Følg med i opdateringer til kodelister
+
+Besked om ændringer til et registers kodelister bliver formidlet vha. Atom feeds. Feedet bliver automatisk genereret som en del af opdateringen af kodelisten. På hver registerside har du adgang til Atom feed (XML-fil).
+
 == Hvordan kan jeg bruge en kodeliste?
 
 Kodelisterne udstilles her på siden, så du kan søge og se dokumentation om de enkelte koder, som indgår i data. Du kan også downloade kodelisterne og eksempelvis indarbejde dem i et it-system.
