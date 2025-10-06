@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade">
+      <dcterms:title xml:lang="da">daekningsomraade</dcterms:title>
+      <dcterms:identifier>urn:uuid:34bbb5dc-0c4f-4e61-94f3-f5b896f3b64f</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:34bbb5dc-0c4f-4e61-94f3-f5b896f3b64f"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">Geografisk område, som kortet dækker helt eller delvist.</dcterms:description>
+      <dcterms:provenance xml:lang="da">Tilføjet kommentar til kodeliste værdien "Intet".</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2025-10-06</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.1</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:09823b85-beb7-459b-999e-187a1875474a</dcat:version>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.gc"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.csv"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.html"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Danmark">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Danmark</skos:notation>
+      <skos:prefLabel xml:lang="da">Danmark</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Danmark eller en del af Danmark</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Norge">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Norge</skos:notation>
+      <skos:prefLabel xml:lang="da">Norge</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Norge eller en del af Norge</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Sverige">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Sverige</skos:notation>
+      <skos:prefLabel xml:lang="da">Sverige</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Sverige eller en del af Sverige</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Færøerne">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Færøerne</skos:notation>
+      <skos:prefLabel xml:lang="da">Færøerne</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Færøerne eller en del af Færøerne</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Grønland">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Grønland</skos:notation>
+      <skos:prefLabel xml:lang="da">Grønland</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Grønland eller en del af Grønland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Holsten-Lauenborg">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Holsten-Lauenborg</skos:notation>
+      <skos:prefLabel xml:lang="da">Holsten-Lauenborg</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser hertugdømmerne Holsten og Lauenborg eller en del af dem</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Island">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Island</skos:notation>
+      <skos:prefLabel xml:lang="da">Island</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Island eller en del af Island</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Slesvig">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Slesvig</skos:notation>
+      <skos:prefLabel xml:lang="da">Slesvig</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser hertugdømmet Slesvig eller en del af det</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Sønderjylland">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Sønderjylland</skos:notation>
+      <skos:prefLabel xml:lang="da">Sønderjylland</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser Sønderjylland eller en del af Sønderjylland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Trankebar">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Trankebar</skos:notation>
+      <skos:prefLabel xml:lang="da">Trankebar</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser den tidligere danske koloni Trankebar</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Ven">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Ven</skos:notation>
+      <skos:prefLabel xml:lang="da">Ven</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser den tidligere danske øresundsø Ven</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Vestindien">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Vestindien</skos:notation>
+      <skos:prefLabel xml:lang="da">Vestindien</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser de tidligere danske kolonier i Vestindien</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Oversøisk">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Oversøisk</skos:notation>
+      <skos:prefLabel xml:lang="da">Oversøisk</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser havområder uden for de danske farvande</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Andre">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Andre</skos:notation>
+      <skos:prefLabel xml:lang="da">Andre</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser andet end kongeriget Danmark og dettes tidligere besiddelser</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/Intet">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade"/>
+      <skos:notation>Intet</skos:notation>
+      <skos:prefLabel xml:lang="da">Intet</skos:prefLabel>
+      <skos:definition xml:lang="da">kortet viser ikke et virkeligt geografisk sted</skos:definition>
+      <rdfs:comment xml:lang="da">I gamle dage når en ny type kort skulle oprettes, kaldtes dette ”eventyrkort” eller prøvekort</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

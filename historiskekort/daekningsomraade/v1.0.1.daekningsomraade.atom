@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">daekningsomraade version 1.0.1</title>
+   <id>urn:uuid:09823b85-beb7-459b-999e-187a1875474a</id>
+   <updated>2025-10-06T12:30:30Z</updated>
+   <published>2025-10-06T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.html"/>
+   <summary type="text">Tilføjet kommentar til kodeliste værdien "Intet".</summary>
+   <content type="html">&lt;div&gt;Tilføjet kommentar til kodeliste værdien "Intet".&lt;/div&gt;</content>
+</entry>

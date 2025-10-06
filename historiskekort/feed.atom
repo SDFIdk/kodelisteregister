@@ -12,7 +12,18 @@
       <name>Klimadatastyrelsen</name>
       <email>historiskekort@kds.dk</email>
    </author>
-   <updated>2025-07-11T15:28:26Z</updated>
+   <updated>2025-10-06T12:30:33Z</updated>
+   <entry>
+      <title type="text">daekningsomraade version 1.0.1</title>
+      <id>urn:uuid:09823b85-beb7-459b-999e-187a1875474a</id>
+      <updated>2025-10-06T12:30:30Z</updated>
+      <published>2025-10-06T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.html"/>
+      <summary type="text">Tilføjet kommentar til kodeliste værdien "Intet".</summary>
+      <content type="html">&lt;div&gt;Tilføjet kommentar til kodeliste værdien "Intet".&lt;/div&gt;</content>
+   </entry>
    <entry>
       <title type="text">kortvaerk version 1.0.0</title>
       <id>urn:uuid:58958bc7-c705-4fd7-a1fc-80a675d73b57</id>
