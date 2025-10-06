@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>Geografisk område, som kortet dækker helt eller delvist.</dcterms:description>
+         <dcterms:provenance>Tilføjet kommentar til kodeliste værdien "Intet".</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2025-10-06</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>daekningsomraade</ShortName>
+      <Version>1.0.1</Version>
+      <CanonicalUri>urn:uuid:34bbb5dc-0c4f-4e61-94f3-f5b896f3b64f</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:09823b85-beb7-459b-999e-187a1875474a</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://sdfidk.github.io/kodelisteregister/historiskekort/daekningsomraade/v1.0.1.daekningsomraade.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Danmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Danmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Danmark eller en del af Danmark</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Norge</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Norge</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Norge eller en del af Norge</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sverige</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sverige</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Sverige eller en del af Sverige</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Færøerne eller en del af Færøerne</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Grønland eller en del af Grønland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Holsten-Lauenborg</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Holsten-Lauenborg</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser hertugdømmerne Holsten og Lauenborg eller en del af dem</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Island</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Island</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Island eller en del af Island</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Slesvig</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser hertugdømmet Slesvig eller en del af det</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser Sønderjylland eller en del af Sønderjylland</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Trankebar</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Trankebar</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser den tidligere danske koloni Trankebar</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ven</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ven</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser den tidligere danske øresundsø Ven</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Vestindien</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vestindien</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser de tidligere danske kolonier i Vestindien</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Oversøisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Oversøisk</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser havområder uden for de danske farvande</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Andre</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Andre</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser andet end kongeriget Danmark og dettes tidligere besiddelser</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Intet</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Intet</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>kortet viser ikke et virkeligt geografisk sted</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>I gamle dage når en ny type kort skulle oprettes, kaldtes dette ”eventyrkort” eller prøvekort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
