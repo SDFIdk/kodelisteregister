@@ -14,11 +14,12 @@ En kodeliste er en samling af de relevante koder, som definerer et interesseomr�
 
 == Kodelisterne er tilgængelig i flere formater
 
-Kodelisterne er tilgængelige i forskellige formater. Koderne ser du under de enkelte registres kodelister. De forskellige formater har hver deres egne anvendelsesområde. CSV kan eksempel anvendes til import til systemer til forvaltning af koderne. HTML til præsentation og formidling af viden om registrets koder.
+Kodelisterne er tilgængelige i forskellige formater. Koderne ser du under de enkelte registres kodelister. De forskellige formater har hver deres egne anvendelsesområde. CSV kan eksempel anvendes til import til systemer til forvaltning af koderne. HTML til præsentation og formidling af viden om registrets koder. RDF/XML (SKOS) kan anvendes til kodelister anvendt i metadata i datakataloger.
 
 * https://www.rfc-editor.org/info/rfc4180[.csv (Comma-Separated Values)]
 * https://docs.oasis-open.org/codelist/genericode/v1.0/genericode-v1.0.html[.gc (Genericode)]
 * https://html.spec.whatwg.org/[.html (HyperText Markup Language)]
+* https://www.w3.org/RDF/[.rdf (Resource Description Framework)]
 
 == Kodelisterne kan have flere versioner
 
