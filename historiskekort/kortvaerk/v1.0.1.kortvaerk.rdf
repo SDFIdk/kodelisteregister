@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk">
+      <dcterms:title xml:lang="da">kortvaerk</dcterms:title>
+      <dcterms:identifier>urn:uuid:e3f1f71a-b85f-43bc-80c4-187523f0f992</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:e3f1f71a-b85f-43bc-80c4-187523f0f992"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">Navnet på en logisk samling af skannede kort, fx atlasblade.</dcterms:description>
+      <dcterms:provenance xml:lang="da">Rettet og/eller tilføjet kommentar til kodeliste værdier.</dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2025-10-08</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.1</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:36ca7ea7-aad9-43ae-b789-8b1a646146ae</dcat:version>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.gc"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.csv"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.html"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/1-cm kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>1-cm kort</skos:notation>
+      <skos:prefLabel xml:lang="da">1-cm kort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:100000</skos:definition>
+      <rdfs:comment xml:lang="da">Kortværket er produceret ved fotogrammetrisk udtegning baseret på flyfotos. Navnet ”1cm kort” stammer fra målestokken.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/1-cm kort, forsvaret">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>1-cm kort, forsvaret</skos:notation>
+      <skos:prefLabel xml:lang="da">1-cm kort, forsvaret</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark produceret specifikt til forsvaret på grundlag af almindelige 1-cm kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/2-cm kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>2-cm kort</skos:notation>
+      <skos:prefLabel xml:lang="da">2-cm kort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:50000</skos:definition>
+      <rdfs:comment xml:lang="da">Kortværket er produceret ved fotogrammetrisk udtegning baseret på flyfotos. Navnet ”2cm kort” stammer fra målestokken.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/2-cm kort, forsvaret">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>2-cm kort, forsvaret</skos:notation>
+      <skos:prefLabel xml:lang="da">2-cm kort, forsvaret</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark produceret specifikt til forsvaret på grundlag af almindelige 2-cm kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/4-cm kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>4-cm kort</skos:notation>
+      <skos:prefLabel xml:lang="da">4-cm kort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i flere versioner fra 1957 til 2002 i målestoksforholdet 1:25000</skos:definition>
+      <rdfs:comment xml:lang="da">Kortværket er produceret ved fotogrammetrisk udtegning baseret på flyfotos. Navnet ”4cm kort” stammer fra målestokken.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/4-cm kort, forsvaret">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>4-cm kort, forsvaret</skos:notation>
+      <skos:prefLabel xml:lang="da">4-cm kort, forsvaret</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark produceret specifikt til forsvaret på grundlag af almindelige 4-cm kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/4-cm kort, særkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>4-cm kort, særkort</skos:notation>
+      <skos:prefLabel xml:lang="da">4-cm kort, særkort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort, som viser et samlet kort over et område, f.eks. en ø</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Arkæologiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Arkæologiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Arkæologiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort der viser placeringen af fortidsminder i det danske landsskab på baggrund af topografiske kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Atlasblade (1:40.000)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Atlasblade (1:40.000)</skos:notation>
+      <skos:prefLabel xml:lang="da">Atlasblade (1:40.000)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:40000</skos:definition>
+      <rdfs:comment xml:lang="da">Generalstabens Topografiske Afdeling (senere Geodætisk Institut) var en dansk kortmyndighed under Generalstaben, som i årene 1842-1928 forsynede både Hæren og en række civile myndigheder med topografiske kort. I sidste halvdel af 1800-tallet foretog afdelingen en topografisk opmåling af hele Danmark, samt Færøerne, som blev udgivet i form af atlasblade i 1:40.000.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Atlasblade (1:80.000)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Atlasblade (1:80.000)</skos:notation>
+      <skos:prefLabel xml:lang="da">Atlasblade (1:80.000)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:80000</skos:definition>
+      <rdfs:comment xml:lang="da">Generalstabens Topografiske Afdeling (senere Geodætisk Institut) var en dansk kortmyndighed under Generalstaben, som i årene 1842-1928 forsynede både Hæren og en række civile myndigheder med topografiske kort. I sidste halvdel af 1800-tallet foretog afdelingen en topografisk opmåling af hele Danmark, samt Færøerne, som blev udgivet i form af atlasblade i 1:80.000.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Atlasblade, kobberstik">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Atlasblade, kobberstik</skos:notation>
+      <skos:prefLabel xml:lang="da">Atlasblade, kobberstik</skos:prefLabel>
+      <skos:definition xml:lang="da">kobberstukkent topografisk kortværk over Danmark. Udgivet i mange udgaver fra 1870 til 1970 i målestoksforholdet 1:40000. </skos:definition>
+      <rdfs:comment xml:lang="da">Generalstabens Topografiske Afdeling (senere Geodætisk Institut) var en dansk kortmyndighed under Generalstaben, som i årene 1842-1928 forsynede både Hæren og en række civile myndigheder med topografiske kort. I sidste halvdel af 1800-tallet foretog afdelingen en topografisk opmåling af hele Danmark, samt Færøerne, som blev udgivet i form af atlasblade i 1:40.000.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Berggreens købstadskort, tegnede">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Berggreens købstadskort, tegnede</skos:notation>
+      <skos:prefLabel xml:lang="da">Berggreens købstadskort, tegnede</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over danske købstæder (undtagen sønderjyske købstæder) i tegnet udgave</skos:definition>
+      <rdfs:comment xml:lang="da">Berggreens købstadskort er en samling af detaljerede kort over danske købstæder, udført af landmåler og topograf Johannes Berggreen (1793-1868) i perioden 1840-1860. Kortene er unikke, da de viser købstæderne med stor nøjagtighed og detaljerigdom, inklusiv bygninger, gader, og andre bymæssige træk. De er en værdifuld kilde til information om byernes udseende og udvikling i midten af det 19. århundrede.
+
+Kortene er produceret ved minorering og eventuelt sammensætning af original 1 kortene for købstædernes bygrunde. På kortene fremgår matrikulær inddeling, gadenavne, bebyggelser m.v.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Berggreens købstadskort, trykte">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Berggreens købstadskort, trykte</skos:notation>
+      <skos:prefLabel xml:lang="da">Berggreens købstadskort, trykte</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over danske købstæder (undtagen sønderjyske købstæder) i trykt udgave</skos:definition>
+      <rdfs:comment xml:lang="da">Berggreens købstadskort er en samling af detaljerede kort over danske købstæder, udført af landmåler og topograf Johannes Berggreen (1793-1868) i perioden 1840-1860. Kortene er unikke, da de viser købstæderne med stor nøjagtighed og detaljerigdom, inklusiv bygninger, gader, og andre bymæssige træk. De er en værdifuld kilde til information om byernes udseende og udvikling i midten af det 19. århundrede.
+
+Kortene er produceret ved minorering og eventuelt sammensætning af original 1 kortene for købstædernes bygrunde. På kortene fremgår matrikulær inddeling, gadenavne, bebyggelser m.v.
+
+</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Bornholmske atlasblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Bornholmske atlasblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Bornholmske atlasblade</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Bornholm. Udgivet i mange udgaver fra 1870 til 1970</skos:definition>
+      <rdfs:comment xml:lang="da">De bornholmske atlasblade har anderledes målestoksforhold end andre atlasblade.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Bykort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Bykort</skos:notation>
+      <skos:prefLabel xml:lang="da">Bykort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over en række danske købstæder</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Bymålinger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Bymålinger</skos:notation>
+      <skos:prefLabel xml:lang="da">Bymålinger</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over danske byer tegnet og opdateret i perioden 1843-1903</skos:definition>
+      <rdfs:comment xml:lang="da">Kortene er ø-kort. Kortene danner grundlag for Høje Målebordsblade og Atlasblade. Dækningsområdet er Danmark minus Sønderjylland.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Bymålinger, tillægsmålinger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Bymålinger, tillægsmålinger</skos:notation>
+      <skos:prefLabel xml:lang="da">Bymålinger, tillægsmålinger</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort produceret som tillægsmålinger til Bymålinger</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/De sønderjyske enklaver, fordeling af sprog">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>De sønderjyske enklaver, fordeling af sprog</skos:notation>
+      <skos:prefLabel xml:lang="da">De sønderjyske enklaver, fordeling af sprog</skos:prefLabel>
+      <skos:definition xml:lang="da">kort der giver oversigt over dansk- og tysktalende områder i Sønderjylland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/DK flyfoto ruteoversigt">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>DK flyfoto ruteoversigt</skos:notation>
+      <skos:prefLabel xml:lang="da">DK flyfoto ruteoversigt</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt fra dansk overflyvning</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/DK flyfoto ruteoversigt 1961-1970">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>DK flyfoto ruteoversigt 1961-1970</skos:notation>
+      <skos:prefLabel xml:lang="da">DK flyfoto ruteoversigt 1961-1970</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt fra dansk overflyvning i perioden 1961-1970</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/DK flyfoto ruteoversigt 1970-2001">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>DK flyfoto ruteoversigt 1970-2001</skos:notation>
+      <skos:prefLabel xml:lang="da">DK flyfoto ruteoversigt 1970-2001</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt fra dansk overflyvning i perioden 1970-2001</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/DK flyfoto ruteoversigt Basic Cover 1945">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>DK flyfoto ruteoversigt Basic Cover 1945</skos:notation>
+      <skos:prefLabel xml:lang="da">DK flyfoto ruteoversigt Basic Cover 1945</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt fra dansk overflyvning i 1945</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/DK flyfoto ruteoversigt Basic Cover 1954">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>DK flyfoto ruteoversigt Basic Cover 1954</skos:notation>
+      <skos:prefLabel xml:lang="da">DK flyfoto ruteoversigt Basic Cover 1954</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt fra dansk overflyvning i 1954</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Dronningens Håndbibliotek, del">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Dronningens Håndbibliotek, del</skos:notation>
+      <skos:prefLabel xml:lang="da">Dronningens Håndbibliotek, del</skos:prefLabel>
+      <skos:definition xml:lang="da">kort der stammer fra Dronningens Håndbibliotek</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Flyfoto 1940-1960">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Flyfoto 1940-1960</skos:notation>
+      <skos:prefLabel xml:lang="da">Flyfoto 1940-1960</skos:prefLabel>
+      <skos:definition xml:lang="da">dansk Flyfoto optaget i perioden 1940-1960</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Flyfoto Basic Cover">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Flyfoto Basic Cover</skos:notation>
+      <skos:prefLabel xml:lang="da">Flyfoto Basic Cover</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfotos over Danmark optaget af det engelske og amerikanske militær i 1945 og 1954</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Flyfoto Forårsflyfoto">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Flyfoto Forårsflyfoto</skos:notation>
+      <skos:prefLabel xml:lang="da">Flyfoto Forårsflyfoto</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfotos over Danmark optaget før løvspring</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Flyfoto Sommerflyfoto">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Flyfoto Sommerflyfoto</skos:notation>
+      <skos:prefLabel xml:lang="da">Flyfoto Sommerflyfoto</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfotos over Danmark optaget efter løvspring</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO 1:1.000.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO 1:1.000.000</skos:notation>
+      <skos:prefLabel xml:lang="da">FO 1:1.000.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:1.000.000</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO 1:100.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO 1:100.000</skos:notation>
+      <skos:prefLabel xml:lang="da">FO 1:100.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:100.000</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO 1:200.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO 1:200.000</skos:notation>
+      <skos:prefLabel xml:lang="da">FO 1:200.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:200.000</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO 1:500.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO 1:500.000</skos:notation>
+      <skos:prefLabel xml:lang="da">FO 1:500.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Færøerne fra perioden i størrelsesforholdet 1:500.000</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO diverse topografiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO diverse topografiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">FO diverse topografiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Færøerne i diverse størrelsesforhold</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO flyfoto">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO flyfoto</skos:notation>
+      <skos:prefLabel xml:lang="da">FO flyfoto</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfoto over Færøerne</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO flyfoto ruteoversigt">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO flyfoto ruteoversigt</skos:notation>
+      <skos:prefLabel xml:lang="da">FO flyfoto ruteoversigt</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt over Færøerne. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO første opmåling">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO første opmåling</skos:notation>
+      <skos:prefLabel xml:lang="da">FO første opmåling</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Færøerne fra perioden 1895-1899</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO ICAO">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO ICAO</skos:notation>
+      <skos:prefLabel xml:lang="da">FO ICAO</skos:prefLabel>
+      <skos:definition xml:lang="da">ICAO Luftfartskort over Færøerne</skos:definition>
+      <rdfs:comment xml:lang="da">ICAO står for International Civil Aviation Organization (Den Internationale Civil Luftfartsorganisation). Det er en specialiseret organisation under FN, der blev oprettet i 1944 ved Chicago-konventionen. ICAO's primære mål er at sikre sikker, ordnet og bæredygtig udvikling af international civil luftfart.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO kortbladsinddeling">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO kortbladsinddeling</skos:notation>
+      <skos:prefLabel xml:lang="da">FO kortbladsinddeling</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over den færøske kortbladsinddeling 2. og 3. udgave. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO målebordsblade 1. udgave">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO målebordsblade 1. udgave</skos:notation>
+      <skos:prefLabel xml:lang="da">FO målebordsblade 1. udgave</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Færøerne. Udgaver fra ca. 1901</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO målebordsblade 2. udgave">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO målebordsblade 2. udgave</skos:notation>
+      <skos:prefLabel xml:lang="da">FO målebordsblade 2. udgave</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Færøerne. Nye udgaver fra 1941</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO målebordsblade 3. udgave">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO målebordsblade 3. udgave</skos:notation>
+      <skos:prefLabel xml:lang="da">FO målebordsblade 3. udgave</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Færøerne. Nye udgaver fra 1987</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO stednavnekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO stednavnekort</skos:notation>
+      <skos:prefLabel xml:lang="da">FO stednavnekort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Færøerne der angiver stednavnes områdeafgrænsning</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO Søkort - Færøernes opmåling">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO Søkort - Færøernes opmåling</skos:notation>
+      <skos:prefLabel xml:lang="da">FO Søkort - Færøernes opmåling</skos:prefLabel>
+      <skos:definition xml:lang="da">søkort over færøske farvande</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO topografisk atlas">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO topografisk atlas</skos:notation>
+      <skos:prefLabel xml:lang="da">FO topografisk atlas</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Færøerne</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO turistkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO turistkort</skos:notation>
+      <skos:prefLabel xml:lang="da">FO turistkort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over udvalgte færøske egne med indtegnede vandreruter fra 1963</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/FO, Rentegninger til 3.udgave målebordsblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>FO, Rentegninger til 3.udgave målebordsblade</skos:notation>
+      <skos:prefLabel xml:lang="da">FO, Rentegninger til 3.udgave målebordsblade</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Færøerne. Kortene er lavet som rentegninger til 3. udgave af de færøske målebordsblade. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Foreløbige atlasblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Foreløbige atlasblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Foreløbige atlasblade</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark trykt mellem 1902 og 1904 i målestoksforholdet 1:40000</skos:definition>
+      <rdfs:comment xml:lang="da">Foreløbige atlasblade refererer til en serie af kort, der blev udgivet af Kort- og Matrikelstyrelsen (nu Klimadatastyrelsen) som et led i den store trigonometriske opmåling af Danmark, der blev ledet af Christian Gedde i det 19. århundrede. De foreløbige atlasblade var en vigtig del af processen med at skabe et moderne og præcist kort over Danmark, og de repræsenterer et vigtigt skridt i udviklingen af dansk kartografi.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Fredede bygninger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Fredede bygninger</skos:notation>
+      <skos:prefLabel xml:lang="da">Fredede bygninger</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Danmark med angivelser af fredede bygninger eller byer med fredet bebyggelse. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Fyr">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Fyr</skos:notation>
+      <skos:prefLabel xml:lang="da">Fyr</skos:prefLabel>
+      <skos:definition xml:lang="da">tegninger af fyr og sømærker i områderne Danmark, Slesvig og Holsten</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Gedde (København)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Gedde (København)</skos:notation>
+      <skos:prefLabel xml:lang="da">Gedde (København)</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Københavns tolv kvarterer fra 1757 forfærdiget af Christian Gedde. </skos:definition>
+      <rdfs:comment xml:lang="da">Christian Gedde (1795-1863) var en dansk kartograf, matematiker og astronom. Han er særligt kendt for sit arbejde med at opmåle og kortlægge Danmark, og han var en central figur i udviklingen af det danske kortvæsen. Han udgav flere vigtige kort der var baseret på den trigonometriske opmåling af Danmark.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Generalkvartermesterstaben">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Generalkvartermesterstaben</skos:notation>
+      <skos:prefLabel xml:lang="da">Generalkvartermesterstaben</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Danmark tegnet i perioden 1808-1862</skos:definition>
+      <rdfs:comment xml:lang="da">Kortenes dækningsområde er Sjælland, Lolland, Falster samt enkelte købstæder med garnisoner udenfor dette område.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Generalstabskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Generalstabskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Generalstabskort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark udgivet i perioden 1843-1928</skos:definition>
+      <rdfs:comment xml:lang="da">Generalstaben var en dansk kortmyndighed som i årene 1842-1928 forsynede både Hæren og en række civile myndigheder med topografiske kort. 
+
+Generalstabskort er også en almindelig betegnelse for kort i 1:100.000.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Gentoftes udskiftning">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Gentoftes udskiftning</skos:notation>
+      <skos:prefLabel xml:lang="da">Gentoftes udskiftning</skos:prefLabel>
+      <skos:definition xml:lang="da">special kort der viser Gentoftes marker før og efter fællesskabets ophævelse</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:1.000.000 ICAO">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:1.000.000 ICAO</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:1.000.000 ICAO</skos:prefLabel>
+      <skos:definition xml:lang="da">iCAO luftfartskort over Grønland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:10.000.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:10.000.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:10.000.000</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Grønland med danske stedangivelser fra perioden 1937-1985</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:100.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:100.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:100.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Grønland i størrelsesforholdet 1:100.000</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:2.000.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:2.000.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:2.000.000</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Grønland der blandt andet angiver kolonier, handelssteder og beboelse. Kortene er fra perioden 1906-1969</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:2.500.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:2.500.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:2.500.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Grønland fra 1963 og 1994</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:250.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:250.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:250.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Grønland i størrelsesforholdet 1:250.000</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:5.000.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:5.000.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:5.000.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Grønland fra perioden 1965-1982</skos:definition>
+      <rdfs:comment xml:lang="da">Nogle kort indeholder kortbladsinddelingen til det topografiske kortværk over Grønland i 1:250.000 (GL 1:250.000).</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL 1:50.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL 1:50.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL 1:50.000</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Grønland fra perioden 1950-1993</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Administrative inddelinger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Administrative inddelinger</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Administrative inddelinger</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Grønland med angivelse af søgrænser fra 2009 og med angivelse landsrådskredse og kommunegrænser fra 1911. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Fangsthytter">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Fangsthytter</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Fangsthytter</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over dele af Grønland med angivelse af fangsthytter</skos:definition>
+      <rdfs:comment xml:lang="da">Kortene indeholder håndskrevne noter om nogle fangsthytter. </rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Flyfoto 1:150.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Flyfoto 1:150.000</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Flyfoto 1:150.000</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfotos over Grønland optaget til kortlægning af Grønland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL flyfoto 1940-1960">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL flyfoto 1940-1960</skos:notation>
+      <skos:prefLabel xml:lang="da">GL flyfoto 1940-1960</skos:prefLabel>
+      <skos:definition xml:lang="da">grøndlandske flyfoto fra perioden 1940-1960</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL flyfoto EGIG">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL flyfoto EGIG</skos:notation>
+      <skos:prefLabel xml:lang="da">GL flyfoto EGIG</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfotos over Grønland optaget i forbindelse med Expédition Glaciologique Internationale au Groenland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL flyfoto ruteoversigt">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL flyfoto ruteoversigt</skos:notation>
+      <skos:prefLabel xml:lang="da">GL flyfoto ruteoversigt</skos:prefLabel>
+      <skos:definition xml:lang="da">flyruteoversigt over Grønland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL flyfoto ældre">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL flyfoto ældre</skos:notation>
+      <skos:prefLabel xml:lang="da">GL flyfoto ældre</skos:prefLabel>
+      <skos:definition xml:lang="da">flyfotos optaget til kortlægning af Grønland i perioden 1932-1960</skos:definition>
+      <rdfs:comment xml:lang="da">De ældste billeder er skråfotos, hvor billeder efter anden verdenskrig er lodfoto.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL kolonikort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL kolonikort</skos:notation>
+      <skos:prefLabel xml:lang="da">GL kolonikort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over byer og bygder på Grønland. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Kortbladsinddelinger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Kortbladsinddelinger</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Kortbladsinddelinger</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Grønland med diverse kortbladsinddelinger fra perioden 1934-1997</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Lauge Kochs grønlandskort i Haag">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Lauge Kochs grønlandskort i Haag</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Lauge Kochs grønlandskort i Haag</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over dele af Grønland. Brugt ved domstolen i Haag</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Lauge Kochs nordgrønlandskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Lauge Kochs nordgrønlandskort</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Lauge Kochs nordgrønlandskort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over dele af Nordgrønland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL ortofotokort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL ortofotokort</skos:notation>
+      <skos:prefLabel xml:lang="da">GL ortofotokort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Grønland på baggrund af ortofoto</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Sirius G500">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Sirius G500</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Sirius G500</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske særkort over Siriuspatruljens område i Grønland fra 1999</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Skærgårdskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Skærgårdskort</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Skærgårdskort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over grønlandske skærgårde fra perioden 1949-1971</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL topografiske kort produceret i USA">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL topografiske kort produceret i USA</skos:notation>
+      <skos:prefLabel xml:lang="da">GL topografiske kort produceret i USA</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Grønland produceret i USA</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/GL Grønlands Topografiske Kortværk">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>GL Grønlands Topografiske Kortværk</skos:notation>
+      <skos:prefLabel xml:lang="da">GL Grønlands Topografiske Kortværk</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Grønland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Gliemanns amtskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Gliemanns amtskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Gliemanns amtskort</skos:prefLabel>
+      <skos:definition xml:lang="da">kortværk over danske amter fra perioden 1825-1895</skos:definition>
+      <rdfs:comment xml:lang="da">Gliemanns Amtskort blev primært tegnet og produceret af Th. Harmsen Gliemann (Theodor Gliemann), men det var et hold af dygtige tegnere og kartografer under hans ledelse, der stod for det detaljerede arbejde. Theodor Gliemann var ansvarlig for den overordnede kunstneriske retning og kvalitetssikring af amtskortene. Han sikrede, at kortene var præcise, detaljerede og æstetisk tiltalende. Amtskortene var baseret på de officielle opmålinger, der var udført af Generalkvartermesterstaben og andre myndigheder. Gliemanns brugte disse opmålinger som grundlag for deres tegninger og tilføjede detaljer som bygninger, veje og jernbaner. Amtskortene betragtes som værende et standardværk for kortlægningen af Danmark.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Grolau">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Grolau</skos:notation>
+      <skos:prefLabel xml:lang="da">Grolau</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over de jyske heder tegnet i forbindelse med fastsætning af grænser mellem kongens og bøndernes jorder. Kortene viser primært topografi. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Grundtakstkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Grundtakstkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Grundtakstkort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort med optegning af udvalgte købstæders grunde opmålt i perioden 1790 til 1856</skos:definition>
+      <rdfs:comment xml:lang="da">Grundtakstkort er en type kort, der blev anvendt i Danmark i forbindelse med vurderingen af ejendommes værdi til brug for beskatning.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Grænsekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Grænsekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Grænsekort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort der dokumenterer landegrænsen mellem Slesvig og Sønderjylland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Grønlands geologi">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Grønlands geologi</skos:notation>
+      <skos:prefLabel xml:lang="da">Grønlands geologi</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Grønland der viser geologiske forhold</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Herredskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Herredskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Herredskort</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikulære kort der er skabt ved sammentegning af minorerede sognekort, der igen er formindskede udgaver af original 1 kortene</skos:definition>
+      <rdfs:comment xml:lang="da">Et herred var en historisk administrativ og juridisk inddeling af Danmark. Et herred var en administrativ inddeling, en juridisk enhed, et skattedistrikt og som basis når der skulle udskrives soldater til kongens hær.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Herredskort, diverse">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Herredskort, diverse</skos:notation>
+      <skos:prefLabel xml:lang="da">Herredskort, diverse</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikulære kort med danske herreder fra perioden 1765-1785</skos:definition>
+      <rdfs:comment xml:lang="da">Et herred var en historisk administrativ og juridisk inddeling af Danmark. Et herred var en administrativ inddeling, en juridisk enhed, et skattedistrikt og som basis når der skulle udskrives soldater til kongens hær.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Holstein-Lauenburg i VIII blade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Holstein-Lauenburg i VIII blade</skos:notation>
+      <skos:prefLabel xml:lang="da">Holstein-Lauenburg i VIII blade</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over hertugdømmerne Holsten og Lauenborg udgivet i 8 blade</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/ICAO">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>ICAO</skos:notation>
+      <skos:prefLabel xml:lang="da">ICAO</skos:prefLabel>
+      <skos:definition xml:lang="da">iCAO Luftfartskort fra 1953</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Indsøkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Indsøkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Indsøkort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over danske søer fra perioden 1872-1997</skos:definition>
+      <rdfs:comment xml:lang="da">Opmålinger foretaget af Geodætisk Institut og af landinspektør Thorkil Høy.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Jernbanekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Jernbanekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Jernbanekort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over det danske jernbanenet</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Jordbundskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Jordbundskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Jordbundskort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over den danske jordbund fra 1935</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Konsumtionsgrænsekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Konsumtionsgrænsekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Konsumtionsgrænsekort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over de danske købstæder fra starten af 1800-tallet</skos:definition>
+      <rdfs:comment xml:lang="da">Kortene beskriver konsumtionsgrænsen, dvs. grænsen for købstadens skattepligtige område. Kortene er meget uegale i indhold og baserer sig på varierende kilder.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Kortbladsoversigter">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Kortbladsoversigter</skos:notation>
+      <skos:prefLabel xml:lang="da">Kortbladsoversigter</skos:prefLabel>
+      <skos:definition xml:lang="da">oversigtskort over forskellige danske kortbladsinddelinger.</skos:definition>
+      <rdfs:comment xml:lang="da">Indeholder oversigter over høje- og lave Målebordsblade og cm kortene.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/København ajourførte matrikulære kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>København ajourførte matrikulære kort</skos:notation>
+      <skos:prefLabel xml:lang="da">København ajourførte matrikulære kort</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikelkort over København fra perioden 1689-1990</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (1:10.000, yngre udgave)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (1:10.000, yngre udgave)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (1:10.000, yngre udgave)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn fra 1876</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (1:10.000, ældre udgave)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (1:10.000, ældre udgave)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (1:10.000, ældre udgave)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn fra 1848</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (1:15.000)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (1:15.000)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (1:15.000)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn fra perioden 1936-1951</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (1:17.500)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (1:17.500)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (1:17.500)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn fra perioden 1953-1968</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (1:25.000, gammel udgave)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (1:25.000, gammel udgave)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (1:25.000, gammel udgave)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn fra perioden 1906-1907</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (1:60.000)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (1:60.000)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (1:60.000)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn fra perioden 1828-1830</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn (fortrolige)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn (fortrolige)</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn (fortrolige)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Københavns omegn. Kortene har været betragtet som fortrolige idet de viser militære anlæg</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Københavns omegn i VI blade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Københavns omegn i VI blade</skos:notation>
+      <skos:prefLabel xml:lang="da">Københavns omegn i VI blade</skos:prefLabel>
+      <skos:definition xml:lang="da">disse kort dækker Københavnsområdet fra Farum i nordvest til Hundige i sydvest. af anden halvdel af 1800-tallet</skos:definition>
+      <rdfs:comment xml:lang="da">De findes i to udgaver, trykt hhv. 1855-57 og 1877-80. Begge serier er baseret på opmålinger til målebordsblade og har mange af disses kvaliteter. De er væsentlige til en dækning trykt hhv. 1855-57 og 1877-80. Begge serier er baseret på opmålinger til målebordsblade og har mange af disses kvaliteter. De er væsentlige til en dækning af anden halvdel af 1800-tallet.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landdomænekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landdomænekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Landdomænekort</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikelkort over danske landdomæner fra perioden 1785-1921</skos:definition>
+      <rdfs:comment xml:lang="da">Et landdomænekort er en type kort, der viser kronens ejendomme og rettigheder i Danmark, altså statens jordbesiddelser og andre rettigheder til jord og ressourcer. Korttypen indeholder grænser for de forskellige landdomæner, navne på landdomæner, informationer om jordensbeskaffenhed og anvendelse, bygninger, veje, vandløb og andre relevante elementer samt eventuelle rettigheder som kronen havde over andre ejendomme (fx fiskeri eller jagt).</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landøkonomiske kort, Christianssæde">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landøkonomiske kort, Christianssæde</skos:notation>
+      <skos:prefLabel xml:lang="da">Landøkonomiske kort, Christianssæde</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over dele af Fuglse herred på Lolland</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landøkonomiske kort, Randers Fjord">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landøkonomiske kort, Randers Fjord</skos:notation>
+      <skos:prefLabel xml:lang="da">Landøkonomiske kort, Randers Fjord</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Randersfjord fra 1869</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landøkonomiske kort, Reventlow">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landøkonomiske kort, Reventlow</skos:notation>
+      <skos:prefLabel xml:lang="da">Landøkonomiske kort, Reventlow</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over hovedgårdsjorder på Lolland</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landøkonomiske kort, Skjern Å">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landøkonomiske kort, Skjern Å</skos:notation>
+      <skos:prefLabel xml:lang="da">Landøkonomiske kort, Skjern Å</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Skjern Ås vanddistrikt fra 1848</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landøkonomiske kort, Skjern Å (skuffe N)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landøkonomiske kort, Skjern Å (skuffe N)</skos:notation>
+      <skos:prefLabel xml:lang="da">Landøkonomiske kort, Skjern Å (skuffe N)</skos:prefLabel>
+      <skos:definition xml:lang="da">landøkonomiske kort indsamlet i forbindelse med landvinding fra området omkring Skjern Å</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Landøkonomiske kort, Sønderjylland">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Landøkonomiske kort, Sønderjylland</skos:notation>
+      <skos:prefLabel xml:lang="da">Landøkonomiske kort, Sønderjylland</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Sønderjylland</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Luftmeldekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Luftmeldekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Luftmeldekort</skos:prefLabel>
+      <skos:definition xml:lang="da">oversigt over danske luftmeldestationer til observation af aeronautiske fartøjer</skos:definition>
+      <rdfs:comment xml:lang="da">Landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Lægdinddelingskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Lægdinddelingskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Lægdinddelingskort</skos:prefLabel>
+      <skos:definition xml:lang="da">administrativt kort. Kortene viser inddeling i danske Lægder - det vil militære udskrivningsområder</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Magelæg">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Magelæg</skos:notation>
+      <skos:prefLabel xml:lang="da">Magelæg</skos:prefLabel>
+      <skos:definition xml:lang="da">danske magelægskort udarbejdet i forbindelse med udskiftningen i slutningen af 1700-tallet</skos:definition>
+      <rdfs:comment xml:lang="da">Kortene dokumenterer bytning af ejendom - som regel imellem landsbyer eller imellem landsby og hovedgård.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Mansa">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Mansa</skos:notation>
+      <skos:prefLabel xml:lang="da">Mansa</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Danmark undtagen Sønderjylland lavet af J.H. Mansa (Ridder af Dannebrog)</skos:definition>
+      <rdfs:comment xml:lang="da">Mansa" refererer til en specifik type landmålingssystem og -udskiftning, der blev anvendt i Danmark, primært i Jylland, i slutningen af 1700-tallet og begyndelsen af 1800-tallet. Det er tæt forbundet med den såkaldte "jyske landbrugsreform". I forbindelse med udstykningen blev måleenheden "mansa" anvendt til at beregne størrelsen på de jordstykker der skulle tildeles hver gård. En "mansa" svare ca til 2 tønder land (ca. 1.05 hektar).
+
+Kortene er udarbejdet på basis af Videnskabernes Selskabs kort og Minorerede sognekort, suppleret med observationer og målinger i marken.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Matrikuleringen af de sønderjyske enklaver">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Matrikuleringen af de sønderjyske enklaver</skos:notation>
+      <skos:prefLabel xml:lang="da">Matrikuleringen af de sønderjyske enklaver</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikelkort over Slesvig</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Mejer">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Mejer</skos:notation>
+      <skos:prefLabel xml:lang="da">Mejer</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Danmark af Johannes Mejer</skos:definition>
+      <rdfs:comment xml:lang="da">Johannes Mejer stod for den første store opmåling af Danmark. Jylland, øerne og Skåne er kortlagt som småskalakort mens der for Sønderjylland findes storskalakort.
+
+Johannes Mejer var dansk kartograf, født 1606 i Husum, Slesvig-Holsten, Tyskland og død 1674 samme sted.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Målebordsblade, farvemønsterblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Målebordsblade, farvemønsterblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Målebordsblade, farvemønsterblade</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark der definerer farvelægningen for andre målebordsblade</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Målebordsblade, gradafdelte">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Målebordsblade, gradafdelte</skos:notation>
+      <skos:prefLabel xml:lang="da">Målebordsblade, gradafdelte</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i perioden 1866-1890, opmålt i perioden 1842-1888</skos:definition>
+      <rdfs:comment xml:lang="da">De gradinddelte målebordsblade er ældste generation de følger Flamsteds modificerede kegleprojektion.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Målebordsblade, høje">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Målebordsblade, høje</skos:notation>
+      <skos:prefLabel xml:lang="da">Målebordsblade, høje</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i perioden 1866-1899, opmålt i perioden 1842-1899. Kortværket dækker ikke Sønderjylland/Slesvig</skos:definition>
+      <rdfs:comment xml:lang="da">De høje målebordsblade er historiske, topografiske kort i målforhold 1:20.000 fra perioden 1862 – 1899. I denne periode hørte Sønderjylland med til Tyskland, og derfor blev dette område ikke opmålt.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Målebordsblade, høje (fortrolige)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Målebordsblade, høje (fortrolige)</skos:notation>
+      <skos:prefLabel xml:lang="da">Målebordsblade, høje (fortrolige)</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Vestvolden. Opmålt og udgivet i perioden 1898-1900</skos:definition>
+      <rdfs:comment xml:lang="da">Disse kort var fortrolige da de viste visse militære anlæg.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Målebordsblade, lave">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Målebordsblade, lave</skos:notation>
+      <skos:prefLabel xml:lang="da">Målebordsblade, lave</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk over Danmark. Udgivet i flere versioner i perioden 1901-1971 (dog kun vedligeholdt sporadisk efter 1953). </skos:definition>
+      <rdfs:comment xml:lang="da">De lave målebordsblade er historiske, topografiske kort i målforhold 1:20000 fra perioden 1901 – 1971. For Sønderjylland er første udgivelse i 1938.
+
+Kortværket er produceret ved målebord i marken - heraf navnet. Der er anvendt en Lamberts konform-koniske projektion i kortværket.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Nymålingskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Nymålingskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Nymålingskort</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikulære nymålinger til brug for matrikelkortet</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Opmålingsdistrikter">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Opmålingsdistrikter</skos:notation>
+      <skos:prefLabel xml:lang="da">Opmålingsdistrikter</skos:prefLabel>
+      <skos:definition xml:lang="da">administrative oversigtskort der viser Danmarks inddeling i opmålingsdistrikter</skos:definition>
+      <rdfs:comment xml:lang="da">Opmålingsdistrikterne følger generelt sognegrænserne, og anvendes til matriklen.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Original 1">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Original 1</skos:notation>
+      <skos:prefLabel xml:lang="da">Original 1</skos:prefLabel>
+      <skos:definition xml:lang="da">første generation af gældende danske matrikelkort udarbejdet i årene 1806-1822 - dog 1863-1880 i købstæderne</skos:definition>
+      <rdfs:comment xml:lang="da">Kortet opdateredes løbende med matrikulære ændringer indtil kortet erstattedes af et Original 2 kort.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Original 2">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Original 2</skos:notation>
+      <skos:prefLabel xml:lang="da">Original 2</skos:prefLabel>
+      <skos:definition xml:lang="da">gældende danske matrikelkort, der opdateredes løbende med matrikulære ændringer. Kortene udarbejdet i perioden ca. 1860-1997</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Original 2, supplerende">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Original 2, supplerende</skos:notation>
+      <skos:prefLabel xml:lang="da">Original 2, supplerende</skos:prefLabel>
+      <skos:definition xml:lang="da">supplerende kort til gældende danske matrikelkort, der opdateredes løbende med matrikulære ændringer. Kortene er udarbejdet i perioden ca. 1860-1997</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Preussiske kort, diverse">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Preussiske kort, diverse</skos:notation>
+      <skos:prefLabel xml:lang="da">Preussiske kort, diverse</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Slesvig produceret af Preussen i perioden 1864-1920, da Slesvig var en del af Preussen</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Preussiske målebordsblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Preussiske målebordsblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Preussiske målebordsblade</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Slesvig produceret af Preussen i perioden 1864-1920, da Slesvig var en del af Preussen. Kortværket er produceret ved målebord i marken - heraf navnet. </skos:definition>
+      <rdfs:comment xml:lang="da">Preussische Polyederprojektion. Produceret af Königleche Preussische Landes-Aufnahme.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Prøvekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Prøvekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Prøvekort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Danmark lavet fra opmålinger produceret i forbindelse eksamener for landinspektørstuderende</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rawert">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rawert</skos:notation>
+      <skos:prefLabel xml:lang="da">Rawert</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Nordsjælland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rekognosceringer til generalstabskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rekognosceringer til generalstabskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Rekognosceringer til generalstabskort</skos:prefLabel>
+      <skos:definition xml:lang="da">undersøgelser i marken til topografiske kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rekognosceringer til målebordsblade - København 1911">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rekognosceringer til målebordsblade - København 1911</skos:notation>
+      <skos:prefLabel xml:lang="da">Rekognosceringer til målebordsblade - København 1911</skos:prefLabel>
+      <skos:definition xml:lang="da">undersøgelser i marken til målebordsblade, fra Københavnsområdet</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rekognosceringer til målebordsblade - Mølleåen">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rekognosceringer til målebordsblade - Mølleåen</skos:notation>
+      <skos:prefLabel xml:lang="da">Rekognosceringer til målebordsblade - Mølleåen</skos:prefLabel>
+      <skos:definition xml:lang="da">undersøgelser i marken til målebordsblade, fra området omkring Mølleåen</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rekognosceringer til Slesvigs Fastland i VI blade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rekognosceringer til Slesvigs Fastland i VI blade</skos:notation>
+      <skos:prefLabel xml:lang="da">Rekognosceringer til Slesvigs Fastland i VI blade</skos:prefLabel>
+      <skos:definition xml:lang="da">forlæg til topografiske kort over Slesvig produceret 1850-1854</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rets- og politikredse, amter, kommuner og regioner">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rets- og politikredse, amter, kommuner og regioner</skos:notation>
+      <skos:prefLabel xml:lang="da">Rets- og politikredse, amter, kommuner og regioner</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over danske Rets- og politikredse, amter, kommuner og regioner</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Rytterdistriktskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Rytterdistriktskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Rytterdistriktskort</skos:prefLabel>
+      <skos:definition xml:lang="da">de ældre rytterdistriktskort fra 1720’erne er topografiske kort over Danmark med angivelse af bebyggelse og i mindre grad arealanvendelse. Angivelse af ryttergårdene er vigtigste tema</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Signaturforklaringer, topografiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Signaturforklaringer, topografiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Signaturforklaringer, topografiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort med signaturforklaringer til topografiske kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Signaturforklaringer, økonomiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Signaturforklaringer, økonomiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Signaturforklaringer, økonomiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort med signaturforklaringer til økonomiske kort. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Skolekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Skolekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Skolekort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort produceret til skoleundervisning. Viser geologi, kulturhistorie, topografi mm. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Skovdistriktskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Skovdistriktskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Skovdistriktskort</skos:prefLabel>
+      <skos:definition xml:lang="da">administrative kort over danske skovdistrikter</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Slesvig, du Plats kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Slesvig, du Plats kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Slesvig, du Plats kort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk militært kort over Slesvig i målestokken 1:57.600. Kortværket er produceret i årene 1804-1805</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Slesvigs Fastland i VI blade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Slesvigs Fastland i VI blade</skos:notation>
+      <skos:prefLabel xml:lang="da">Slesvigs Fastland i VI blade</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kort over Slesvig produceret 1850-1854</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Sognekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Sognekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Sognekort</skos:prefLabel>
+      <skos:definition xml:lang="da">matrikulære kort over Danmark der er skabt ved sammentegning og minorering af original 1 kortene, således at alle et sogns ejerlav ses på ét enkelt kort</skos:definition>
+      <rdfs:comment xml:lang="da">Foruden de originale tegnede kort findes der trykte kort der i varierende grad er opdaterede.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Sogneskelskort, 4cm kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Sogneskelskort, 4cm kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Sogneskelskort, 4cm kort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort hvor danske sogneskel og ændringer i disse markeret på 4-cm kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Sogneskelskort, målebordsblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Sogneskelskort, målebordsblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Sogneskelskort, målebordsblade</skos:prefLabel>
+      <skos:definition xml:lang="da">kort hvor danske sogneskel og ændringer i disse markeret på målebordsblade</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Sterms pastoratkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Sterms pastoratkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Sterms pastoratkort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort dækkende de fleste sogne i Københavnsområdet (ca. det tidligere HT-område)</skos:definition>
+      <rdfs:comment xml:lang="da">De er lavet af Severin Sterm på baggrund af sognekort suppleret med flere topografiske oplysninger.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Stormfloden 1872">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Stormfloden 1872</skos:notation>
+      <skos:prefLabel xml:lang="da">Stormfloden 1872</skos:prefLabel>
+      <skos:definition xml:lang="da">kort der dokumenterer oversvømmede områder m.v. ved stormfloden i 1872</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Stormfloden 1872 (sammentegninger)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Stormfloden 1872 (sammentegninger)</skos:notation>
+      <skos:prefLabel xml:lang="da">Stormfloden 1872 (sammentegninger)</skos:prefLabel>
+      <skos:definition xml:lang="da">sammentegninger af de kort der dokumenterer oversvømmede områder m.v. ved stormfloden i 1872</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/System 34/45">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>System 34/45</skos:notation>
+      <skos:prefLabel xml:lang="da">System 34/45</skos:prefLabel>
+      <skos:definition xml:lang="da">inddeling og nummerering af matrikelkort i System 1934</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søgrænser">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søgrænser</skos:notation>
+      <skos:prefLabel xml:lang="da">Søgrænser</skos:prefLabel>
+      <skos:definition xml:lang="da">søkort som viser udvalgte landes søgrænser</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort DK atlasblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort DK atlasblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort DK atlasblade</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over de danske farvande inddelt i atlasblade fra perioden 1911-1957</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort DK opmålingsoversigter">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort DK opmålingsoversigter</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort DK opmålingsoversigter</skos:prefLabel>
+      <skos:definition xml:lang="da">opmålingsoversigter af danske søkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort GL egenproduktion">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort GL egenproduktion</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort GL egenproduktion</skos:prefLabel>
+      <skos:definition xml:lang="da">grønlandske egenproducerede søkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort GL opmålingsoversigter">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort GL opmålingsoversigter</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort GL opmålingsoversigter</skos:prefLabel>
+      <skos:definition xml:lang="da">opmålingsoversigter af grønlandske søkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort GL, Grønlands Styrelse">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort GL, Grønlands Styrelse</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort GL, Grønlands Styrelse</skos:prefLabel>
+      <skos:definition xml:lang="da">grønlandske søkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort GL, produceret af USA">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort GL, produceret af USA</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort GL, produceret af USA</skos:prefLabel>
+      <skos:definition xml:lang="da">grønlandske søkort produceret af USA</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort Island atlasblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort Island atlasblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort Island atlasblade</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over de islandske farvande inddelt i atlasblade fra 1940</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort opmålinger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort opmålinger</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort opmålinger</skos:prefLabel>
+      <skos:definition xml:lang="da">diverse søkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort, antikke">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort, antikke</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort, antikke</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre søkort, til ca. 1850. Ofte ikke af egen produktion</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort, Grønlands Styrelse">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort, Grønlands Styrelse</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort, Grønlands Styrelse</skos:prefLabel>
+      <skos:definition xml:lang="da"/>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort, henlæggelser af egen produktion">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort, henlæggelser af egen produktion</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort, henlæggelser af egen produktion</skos:prefLabel>
+      <skos:definition xml:lang="da">dansk producerede henlagte søkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Søkort, signaturforklaringer">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Søkort, signaturforklaringer</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort, signaturforklaringer</skos:prefLabel>
+      <skos:definition xml:lang="da">signaturforklaringer og forkortelser i danske søkort. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Sønderjyske originalkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Sønderjyske originalkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Sønderjyske originalkort</skos:prefLabel>
+      <skos:definition xml:lang="da">supplerings- og matrikelkort over Sønderjylland</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Sønderjyske sognekort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Sønderjyske sognekort</skos:notation>
+      <skos:prefLabel xml:lang="da">Sønderjyske sognekort</skos:prefLabel>
+      <skos:definition xml:lang="da">minoreret matrikelkort over sønderjyske sogne fra 1963</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:1.000.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:1.000.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:1.000.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kort dækkende hele landet fra perioden 1924-1963</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:1.200.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:1.200.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:1.200.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1928-1969. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:150.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:150.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:150.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1929-1941</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:150.000 &#34;nyt færdselskort&#34;">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:150.000 nyt færdselskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:150.000 "nyt færdselskort"</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske færdselskort fra perioden 1939-1970</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:160.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:160.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:160.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortvært fra perioden 1909-1929</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:160.000 generalkort over Fyn og Sjælland">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:160.000 generalkort over Fyn og Sjælland</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:160.000 generalkort over Fyn og Sjælland</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske generalkort over Fyn of Sjælland fra perioden 1869-1878</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:160.000 generalkort over Jylland">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:160.000 generalkort over Jylland</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:160.000 generalkort over Jylland</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske generalkort over Jylland fra perioden 1880-1881</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:200.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:200.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:200.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1928-1969. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:200.000 færdselskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:200.000 færdselskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:200.000 færdselskort</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske færdselskort fra perioden 1987-2002</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:200.000, forsvaret TN">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:200.000, forsvaret TN</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:200.000, forsvaret TN</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1900-2006. Kortværk fremstillet til brug for forsvaret</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:240.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:240.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:240.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:250.000, forsvaret TFCL">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:250.000, forsvaret TFCL</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:250.000, forsvaret TFCL</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 2001-2012. Kortværk fremstillet til brug for forsvaret, Transit Flying Chart Low Level</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:300.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:300.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:300.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1950-1956</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:300.000 autokort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:300.000 autokort</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:300.000 autokort</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1933-1951. Autokort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:300.000 plakat">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:300.000 plakat</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:300.000 plakat</skos:prefLabel>
+      <skos:definition xml:lang="da">plakat med topografisk kort dækkende Danmark fra 1989</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:320.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:320.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:320.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1920-1945</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:320.000 ældre udgave">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:320.000 ældre udgave</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:320.000 ældre udgave</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden før 1920</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:480.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:480.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:480.000</skos:prefLabel>
+      <skos:definition xml:lang="da">dansk topografisk kort fra 1846</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:500.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:500.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:500.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kort fra perioden 1924-2003</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:500.000 &#34;The World&#34;">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:500.000 The World</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:500.000 "The World"</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 1973-2007</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:500.000, forsvaret">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:500.000, forsvaret</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:500.000, forsvaret</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kortværk fra perioden 2005-2007. Kortværk fremstillet til brug for forsvaret</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:640.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:640.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:640.000</skos:prefLabel>
+      <skos:definition xml:lang="da">dansk topografisk kort fra 1907</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort 1:750.000">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort 1:750.000</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort 1:750.000</skos:prefLabel>
+      <skos:definition xml:lang="da">danske topografiske kort fra perioden 1931-1982</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, diverse">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, diverse</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, diverse</skos:prefLabel>
+      <skos:definition xml:lang="da">blandede topografiske kort over Danmark</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Gudenåen">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Gudenåen</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Gudenåen</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over arealerne langs Gudenåen</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Gudenåen (rentegninger)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Gudenåen (rentegninger)</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Gudenåen (rentegninger)</skos:prefLabel>
+      <skos:definition xml:lang="da">rentegninger af topografiske kort over arealerne langs Gudenåen</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Holstein-Lauenburg">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Holstein-Lauenburg</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Holstein-Lauenburg</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske enkeltkort over hertugdømmerne Holsten og Lauenborg. </skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Høje Møn">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Høje Møn</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Høje Møn</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over den østlige del af Møn</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, rentegninger, kalker">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, rentegninger, kalker</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, rentegninger, kalker</skos:prefLabel>
+      <skos:definition xml:lang="da">forlæg til topografiske kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Skjern og Omme Å">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Skjern og Omme Å</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Skjern og Omme Å</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over arealerne langs Skjern og Omme Åer</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Slesvig">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Slesvig</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Slesvig</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Slesvig fra perioden 1825-1851</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, særmålinger">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, særmålinger</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, særmålinger</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over særmålinger af dele af Jylland. Inddelt efter amter</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Øresundsregionen">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, øresundsregionen</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Øresundsregionen</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Øresundsregionen fra perioden 1999-2001</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Topografiske kort, Aarhus">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Topografiske kort, Aarhus</skos:notation>
+      <skos:prefLabel xml:lang="da">Topografiske kort, Aarhus</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Århus</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Trap, tegnede kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Trap, tegnede kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Trap, tegnede kort</skos:prefLabel>
+      <skos:definition xml:lang="da">forarbejder til kort over danske købstæderne og deres landsogne produceret til Trap Danmarks 1. udgave</skos:definition>
+      <rdfs:comment xml:lang="da">For de fleste købstæders vedkommende findes der separate kort for henholdsvis bygrundene og markjorderne.
+
+Jens Peter Trap (ofte blot kaldet J.P. Trap) var en dansk historiker, geograf og topograf, født den 29. april 1815 i København og død den 29. september 1866 sammesteds. Han er mest kendt for sit monumentale værk "Statistisk-topografisk Beskrivelse af Kongeriget Danmark", som er en detaljeret beskrivelse af alle danske landsdele.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Triangulationsnettet">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Triangulationsnettet</skos:notation>
+      <skos:prefLabel xml:lang="da">Triangulationsnettet</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Danmark med triangulationsnet fra 1939</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Turistkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Turistkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Turistkort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over udvalgte danske områder, der udgivet i falsede udgaver henvendt til turister</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Udskiftningskort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Udskiftningskort</skos:notation>
+      <skos:prefLabel xml:lang="da">Udskiftningskort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over Danmark produceret til jordfordeling i forbindelse med udskiftningen</skos:definition>
+      <rdfs:comment xml:lang="da">Mange udskiftningskort er genanvendt som matrikelkort, og disse skal findes under Original 1. Dækningsområdet er som regel et ejerlav. og disse skal findes under Original 1.</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Vandbygningskort (skuffe L)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Vandbygningskort (skuffe L)</skos:notation>
+      <skos:prefLabel xml:lang="da">Vandbygningskort (skuffe L)</skos:prefLabel>
+      <skos:definition xml:lang="da">landøkonomiske kort over Danmark indsamlet i forbindelse med landvinding af Falster</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Vandbygningskort (skuffe M)">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Vandbygningskort (skuffe M)</skos:notation>
+      <skos:prefLabel xml:lang="da">Vandbygningskort (skuffe M)</skos:prefLabel>
+      <skos:definition xml:lang="da">landøkonomiske kort over Danmark indsamlet i forbindelse med landvinding Lammefjorden</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Varendorf">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Varendorf</skos:notation>
+      <skos:prefLabel xml:lang="da">Varendorf</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over hertugdømmet Holsten. Fremstillet til militære formål</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Vejklassificering">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Vejklassificering</skos:notation>
+      <skos:prefLabel xml:lang="da">Vejklassificering</skos:prefLabel>
+      <skos:definition xml:lang="da">kort over danske landeveje, offentlige biveje og vandløb fra perioden 1936-1967</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Vejkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Vejkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Vejkort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort fremstillet i forbindelse med anlæg af de nye danske landeveje 1750-1820, gerne visende det gamle vejforløb</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Videnskabernes Selskab, trigonometri">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Vestindien, topografiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Videnskabernes Selskab, trigonometri</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Vestindien fra perioden 1754-1934</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Videnskabenes Selskab, trigonometri">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Videnskabernes Selskab, trigonometri</skos:notation>
+      <skos:prefLabel xml:lang="da">Videnskabenes Selskab, trigonometri</skos:prefLabel>
+      <skos:definition xml:lang="da">arbejdstegninger produceret i forbindelse med produktionen af Videnskabernes Selskabs kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Videnskabernes Selskab">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Videnskabernes Selskab</skos:notation>
+      <skos:prefLabel xml:lang="da">Videnskabernes Selskab</skos:prefLabel>
+      <skos:definition xml:lang="da">topografisk kortværk udarbejdet og udgivet af Det Kongelige Danske Videnskabernes Selskab i perioden 1766-1841</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Videnskabernes Selskab, koncept">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Videnskabernes Selskab, koncept</skos:notation>
+      <skos:prefLabel xml:lang="da">Videnskabernes Selskab, koncept</skos:prefLabel>
+      <skos:definition xml:lang="da">forlæg til de trykte Videnskabernes Selskabs kort. Kortene er i større målestok og indeholder flere topografiske landskabselementer</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/Ældste originalkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk"/>
+      <skos:notation>Ældste originalkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Ældste originalkort</skos:prefLabel>
+      <skos:definition xml:lang="da">kort indsamlet fra fx godser i forbindelse med matrikuleringen, men kortene har ikke fået status af officielle matrikelkort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>
