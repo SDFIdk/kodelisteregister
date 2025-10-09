@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">kortvaerk version 1.0.1</title>
+   <id>urn:uuid:36ca7ea7-aad9-43ae-b789-8b1a646146ae</id>
+   <updated>2025-10-08T14:10:23Z</updated>
+   <published>2025-10-08T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/historiskekort/kortvaerk/v1.0.1.kortvaerk.html"/>
+   <summary type="text">Rettet og/eller tilføjet kommentar til kodeliste værdier.</summary>
+   <content type="html">&lt;div&gt;Rettet og/eller tilføjet kommentar til kodeliste værdier.&lt;/div&gt;</content>
+</entry>
