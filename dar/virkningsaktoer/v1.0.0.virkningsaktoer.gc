@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:dcterms="http://purl.org/dc/terms/"
+             xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Annotation>
+      <Description>
+         <dcterms:description>Kodelisten indeholder mulige værdier for virkningsaktør til DAR. Bemærk at definitioner og eventuelle kommentarer til kodelisteværdier udestår.</dcterms:description>
+         <dcterms:provenance>Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-03-19</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>virkningsaktoer</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:4ff3f95b-e30f-45ad-9f6d-669eb4d68043</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:af154cad-3fb4-4d05-a86a-b038ef3f9383</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/dar/virkningsaktoer/v1.0.0.virkningsaktoer.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/dar/virkningsaktoer/v1.0.0.virkningsaktoer.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/dar/virkningsaktoer/v1.0.0.virkningsaktoer.html</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="definition" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="kommentar" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="virkningFra" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreDarSystem</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adressemyndigheden</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreAdgangspunkt</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grunddataregister (Matriklen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreAdresserEnheder</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grunddataregister (BBR)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreGadepostnummer</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gadepostnummerklient</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreDialog</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Borger eller virksomhed (Brugeraktør)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreFejlmelding</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Eksternt indberetningssystem</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreDagiTilknytning</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grunddataregister (DAGI)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreGeoDKTilknytning</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grunddataregister (GeoDK)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreByOgVej</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adressemyndighed med fokus på veje og byer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreRetskrivningskontrol</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Retskrivningkontrollør for vejnavne</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreMuTilknytning</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grunddataregister (Matriklen)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>AjourføreBBRTilknytning</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grunddataregister (BBR)</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Konvertering2017SDFE</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Konverteret i fbm DAR1.0</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DARTransition</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Transition i fbm DAR1.0</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DAR korrektion</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>DAR korrektion</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Konvertering2017</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Konvertering2017</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>
