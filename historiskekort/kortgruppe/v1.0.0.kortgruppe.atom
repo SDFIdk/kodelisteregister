@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">kortgruppe version 1.0.0</title>
+   <id>urn:uuid:143d6a1e-9ec5-4ebb-9a1e-f6d2e5d133d1</id>
+   <updated>2026-03-19T13:49:26Z</updated>
+   <published>2026-03-19T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.html"/>
+   <summary type="text">første version af kodelisten </summary>
+   <content type="html">&lt;div&gt;første version af kodelisten &lt;/div&gt;</content>
+</entry>
