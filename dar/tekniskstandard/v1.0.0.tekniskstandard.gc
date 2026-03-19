@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:dcterms="http://purl.org/dc/terms/"
+             xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Annotation>
+      <Description>
+         <dcterms:description>Kodelisten indeholder mulige værdier for teknisk standard til DAR. Bemærk at definitioner og eventuelle kommentarer til kodelisteværdier udestår.</dcterms:description>
+         <dcterms:provenance>Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-03-19</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>tekniskstandard</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:2e84d527-23d0-49cf-ace4-914844cff01f</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:1fd80f46-87c9-482b-b462-a2f3894ecce4</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/dar/tekniskstandard/v1.0.0.tekniskstandard.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/dar/tekniskstandard/v1.0.0.tekniskstandard.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/dar/tekniskstandard/v1.0.0.tekniskstandard.html</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="definition" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="kommentar" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="virkningFra" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>UF</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adgangspunkt uspecificeret eller foreløbigt placeret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>TN</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adgangspunkt inden for bygningsomrids</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>TK</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adgangspunkt ved bygningsfacade mod vej</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>TD</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adgangspunkt ved indgangsdør til bygning</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>TA</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Adgangspunkt til anlæg – uden bygning</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>VU</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt er uspecificeret eller ukendt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>VN</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt i vejtilslutningspunkt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V0</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med korrekt vejkode. Stor sikkerhed for korrekt vejpunkt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V1</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med korrekt vejkode. Adgang til adgangspunkt via indkørselsvej eller sti</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V2</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med korrekt vejkode. Risiko for at skulle krydse stier</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V3</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med korrekt vejkode. Risiko for at skulle krydse andre veje</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V4</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med korrekt vejkode. Risiko for at skulle krydse et enkelt teknisk anlæg eller trafikhegn</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V5</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med korrekt vejkode. Risiko for at skulle krydse et større antal bygninger eller jordstykker. Risiko for at skulle krydse fysiske forhindringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V6</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på mindre indkørselsvej med korrekt vejkode. Risiko for at skulle krydse fysiske forhindringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V7</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej med forkert vejkode, men på samme matrikelnummer. Risiko for at skulle krydse fysiske forhindringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V8</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på sti med korrekt vejkode. Risiko for at skulle krydse fysiske forhindringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>V9</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej eller indkørselsvej med forkert kommunekode eller vejkode. Risiko for at skulle krydse fysiske forhindringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>VX</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejpunkt på vej. Stor usikkerhed om korrekthed</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DP</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Dørpunkt placeret principielt korrekt</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DE</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Dørpunkt placeret ud fra etageplan</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>DM</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Dørpunkt målt på stedet</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>NO</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejnavnebeliggenhed omskriver adresser, GeoDanmark vejmidter eller er konstrueret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>N0</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejnavnebeliggenhed omskriver adresser, GeoDanmark vejmidter eller er kontrueret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>Kan forekomme for historiske Navngivenvej</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>NU</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejnavnebeliggenhed omskriver adresser, GeoDanmark vejmidter eller er konstrueret</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>Kan forekomme for historiske Navngivenvej</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

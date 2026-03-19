@@ -1,0 +1,37 @@
+= DAR
+// Eksempel:
+// = Danske Stednavne
+:author: Klimadatastyrelsen
+// Eksempel:
+// :author: Klimadatastyrelsen
+:email: adresser@kds.dk
+// Eksempel:
+// :email: danskestednavne@kds.dk
+:identifier: urn:uuid:23d6f3a4-d604-4bce-9cac-69521dd1c306
+// Eksempel:
+// :identifier: urn:uuid:69eb3207-978f-4edd-aab0-40827918b52c
+:description: {doctitle} indeholder stamdata for registrets kodelister ift. beskrivelse, ejerskab og kontaktoplysninger.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+// Det er vigtigt at ovenstående linje er den første tomme linje i README.adoc! Se evt. https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#document-header
+[#abstract]
+Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Danmarks%20Adresseregister/package-summary.html[objektkatalog].
+// Eksempel:
+// Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Stednavne/package-summary.html[objektkatalog].
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kendetegnet ved at beskrive typer af aktører, processer, nøjagtighedsklasse, standarder mm.
+// Eksempel:
+// {doctitle}s kodelister er kendetegnet ved at beskrive typen af navne. Koderne er i sig selv menneskelig læsbare, hvorfor koden og navnet på koden er enslydende.
+
+[#owner]
+== Ejer
+{doctitle} er ejet af {author}.
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til {email}.
