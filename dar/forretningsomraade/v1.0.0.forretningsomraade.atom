@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">forretningsomraade version 1.0.0</title>
+   <id>urn:uuid:f8515b29-0ca7-4245-ac9b-e0d03c302053</id>
+   <updated>2026-03-19T13:18:21Z</updated>
+   <published>2026-03-19T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dar/forretningsomraade/v1.0.0.forretningsomraade.html"/>
+   <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+   <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+</entry>

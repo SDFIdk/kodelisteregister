@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">livscyklus version 1.0.0</title>
+   <id>urn:uuid:4c01da8f-54b5-4b67-9cb9-8c00c065556f</id>
+   <updated>2026-03-19T13:18:22Z</updated>
+   <published>2026-03-19T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dar/livscyklus/v1.0.0.livscyklus.html"/>
+   <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+   <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+</entry>

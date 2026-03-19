@@ -1,0 +1,7 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"A","Absolut placeret","","","2015-10-01",""
+"B","Beregnet placering","","","2015-10-01",""
+"A","Manuelt sat, følger IKKE GeoDanmark","","Nøjagtighedsklasse for Vejnavnebeliggenhed","2015-10-01",""
+"B","Maskinelt sat, ud fra GeoDanmark","","Nøjagtighedsklasse for Vejnavnebeliggenhed","2015-10-01",""
+"C","Manuelt sat, kommer til at følge GeoDanmark","","Nøjagtighedsklasse for Vejnavnebeliggenhed","2015-10-01",""
+"U","Adressepunkt uden koordinater - stedfæstelse ukendt","","Kan forekomme for historiske Adressepunkter (adgangspunkter)","2015-10-01",""

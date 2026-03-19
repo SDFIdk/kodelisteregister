@@ -1,0 +1,8 @@
+kode,navn,definition,kommentar,virkningFra,virkningTil
+"Grundkort","Grundkort","","","2015-10-01",""
+"Matrikelkort","Matrikelkort","","","2015-10-01",""
+"Ekstern","Ekstern tredjepart","","","2015-10-01",""
+"Ejer","Ejer eller administrator","","","2015-10-01",""
+"Landinsp","Landinspektør","","","2015-10-01",""
+"Adressemyn","Adressemyndigheden","","","2015-10-01",""
+"DARSystem","Danmarks Adresse Register","","","2015-10-01",""
