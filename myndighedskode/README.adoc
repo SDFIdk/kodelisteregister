@@ -1,0 +1,37 @@
+= Myndighedskode
+// Eksempel:
+// = Danske Stednavne
+:author: Klimadatastyrelsen
+// Eksempel:
+// :author: Klimadatastyrelsen
+:email: kds@kds.dk
+// Eksempel:
+// :email: danskestednavne@kds.dk
+:identifier: urn:uuid:3fdffcb1-401d-47fd-90c4-bf0ba33c56c8
+// Eksempel:
+// :identifier: urn:uuid:69eb3207-978f-4edd-aab0-40827918b52c
+:description: {doctitle} indeholder myndighedskoder fra CPRs myndighedsregister. Koderne er oprettet her i Kodelisteregistret til brug for bl.a. Grunddataregistrene.
+:encoding: utf-8
+:keywords: kodeliste, genericode, grunddata
+:lang: da
+:nofooter:
+
+// Det er vigtigt at ovenstående linje er den første tomme linje i README.adoc! Se evt. https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/#document-header
+[#abstract]
+Her er lister med koder, som indgår i {doctitle}. {doctitle} er ikke et officielt myndighedsregister men indeholder koder som bl.a. anvendes i Grunddataregistre.
+// Eksempel:
+// Her er lister med de koder, som indgår i {doctitle}. Læs mere om {doctitle} i registrets https://grunddatamodel.datafordeler.dk/objekttypekatalog/Stednavne/package-summary.html[objektkatalog].
+
+[#description]
+== Beskrivelse
+{doctitle}s kodelister er kendetegnet ved at beskrive typer af myndigheder, forvaltningsniveauer mm. Nogle af koderne er i sig selv menneskelig læsbare, hvorfor koden og navnet på koden er enslydende.
+// Eksempel:
+// {doctitle}s kodelister er kendetegnet ved at beskrive typen af navne. Koderne er i sig selv menneskelig læsbare, hvorfor koden og navnet på koden er enslydende.
+
+[#owner]
+== Ejer
+{doctitle} er oprettet af {author}. CPR ejer det officielle myndighedsregister.
+
+[#contact]
+== Kontakt
+Spørgsmål til {doctitle}s kodelister skal rettes til {email}.
