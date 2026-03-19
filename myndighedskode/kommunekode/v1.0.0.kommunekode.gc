@@ -1,0 +1,1463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:dcterms="http://purl.org/dc/terms/"
+             xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">
+   <Annotation>
+      <Description>
+         <dcterms:description>Kodelisten indeholder kommunekoder og navn.</dcterms:description>
+         <dcterms:provenance>Kodelisten er oprettet ud fra værdier i CPR's myndighedsregister.</dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-03-19</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>kommunekode</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:8eab8eb8-f7da-483c-ac6c-acce632f60eb</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:6b02a4dd-b78f-43b4-9897-0b5a4d168886</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/myndighedskode/kommunekode/v1.0.0.kommunekode.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/myndighedskode/kommunekode/v1.0.0.kommunekode.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/myndighedskode/kommunekode/v1.0.0.kommunekode.html</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="definition" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="kommentar" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string" Lang="da"/>
+      </Column>
+      <Column Id="virkningFra" Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil" Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0101</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Københavns Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2013-08-05</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0147</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Frederiksberg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0151</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ballerup Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-02-06</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0153</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Brøndby Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0155</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Dragør Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-06-25</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0157</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gentofte Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-07</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0159</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gladsaxe Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0161</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Glostrup Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-05-21</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0163</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Herlev Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2014-03-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0165</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Albertslund Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0167</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Hvidovre Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2008-05-08</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0169</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Høje-Taastrup Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-05-28</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0173</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lyngby-Taarbæk Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-07-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0175</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rødovre Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2010-04-13</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0183</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ishøj Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0185</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Tårnby Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-04-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0187</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vallensbæk Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0190</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Furesø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2017-09-11</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0201</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Allerød Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-12-19</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0210</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Fredensborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-01-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0217</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Helsingør Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0219</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Hillerød Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2008-01-23</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0223</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Hørsholm Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2020-01-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0230</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rudersdal Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0240</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Egedal Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2014-11-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0250</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Frederikssund Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0253</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Greve Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0259</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Køge Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0260</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Halsnæs Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0265</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Roskilde Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-03-19</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0269</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Solrød Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-04</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0270</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Gribskov Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0306</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Odsherred Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0320</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Faxe Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0326</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Kalundborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2014-06-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0329</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ringsted Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-09-06</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0330</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Slagelse Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-03-07</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0336</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Stevns Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2012-03-06</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0340</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sorø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0350</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lejre Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2008-08-08</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0360</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lolland Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0370</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Næstved Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2008-02-07</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0376</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Guldborgsund Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0390</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vordingborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0400</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Bornholms Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2001-09-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0410</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Middelfart Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2017-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0411</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Bornholms kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-05-21</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0420</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Assens Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2011-01-06</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0430</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Faaborg-Midtfyn Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0440</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Kerteminde Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0450</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Nyborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0461</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Odense Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2018-05-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0479</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Svendborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-04-25</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0480</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Nordfyns Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-06-21</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0482</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Langeland Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-02-21</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0492</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ærø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-08-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0510</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Haderslev kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0530</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Billund Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-08-08</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0540</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Sønderborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0550</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Tønder Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-01-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0561</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Esbjerg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-10-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0563</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Fanø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0573</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Varde Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-05-28</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0575</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejen Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2019-02-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0580</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Aabenraa Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0607</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Fredericia Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-05-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0615</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Horsens Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0621</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Kolding Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2012-09-05</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0630</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vejle Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0657</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Herning Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2008-10-10</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0661</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Holstebro Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0665</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Lemvig Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0671</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Struer Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0706</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Syddjurs Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-03-11</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0707</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Norddjurs Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-08-30</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0710</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Favrskov Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0727</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Odder Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0730</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Randers Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2013-12-18</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0740</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Silkeborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0741</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Samsø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2010-02-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0746</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skanderborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2008-10-28</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0751</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Aarhus Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2016-12-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0756</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ikast-Brande Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-15</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0760</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ringkøbing-Skjern Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0766</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Hedensted Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-12</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0773</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Morsø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0779</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Skive Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-01-16</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0787</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Thisted Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0791</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Viborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-01-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0810</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Brønderslev Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-02-28</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0813</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Frederikshavn Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-06-29</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0820</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Vesthimmerlands Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2005-09-14</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0825</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Læsø Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1990-05-21</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0840</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Rebild Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2015-01-13</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0846</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Mariagerfjord Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2007-01-30</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0849</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Jammerbugt Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2009-04-28</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0851</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Aalborg Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>1991-05-28</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>0860</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Hjørring Kommune</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition"/>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2013-08-02</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

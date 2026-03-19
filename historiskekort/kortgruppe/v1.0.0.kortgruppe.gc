@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gc:CodeList xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/"
+             xmlns:dcterms="http://purl.org/dc/terms/">
+   <Annotation>
+      <Description>
+         <dcterms:description>overordnet gruppering af kortværker, hvor metadatafelter er identisk </dcterms:description>
+         <dcterms:provenance>første version af kodelisten </dcterms:provenance>
+         <dcterms:language>da</dcterms:language>
+         <dcterms:license>https://creativecommons.org/licenses/by/4.0/deed.da</dcterms:license>
+         <dcterms:available>2026-03-19</dcterms:available>
+      </Description>
+   </Annotation>
+   <Identification>
+      <ShortName>kortgruppe</ShortName>
+      <Version>1.0.0</Version>
+      <CanonicalUri>urn:uuid:7b007c3c-17fa-444e-9040-375fd5e36150</CanonicalUri>
+      <CanonicalVersionUri>urn:uuid:143d6a1e-9ec5-4ebb-9a1e-f6d2e5d133d1</CanonicalVersionUri>
+      <LocationUri>https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.gc</LocationUri>
+      <AlternateFormatLocationUri MimeType="text/csv">https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.csv</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="text/html">https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.html</AlternateFormatLocationUri>
+      <AlternateFormatLocationUri MimeType="application/rdf+xml">https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.rdf</AlternateFormatLocationUri>
+      <Agency>
+         <LongName>Klimadatastyrelsen</LongName>
+      </Agency>
+   </Identification>
+   <ColumnSet>
+      <Column Id="kode"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tilladt værdi i data</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kode</ShortName>
+         <Data Type="string"/>
+      </Column>
+      <Column Id="navn"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>foretrukne term for koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>navn</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="definition"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kort beskrivelse eller formel forklaring af kodens betydning</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>definition</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="kommentar"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>kommentar som hjælper til afklaring af forståelse af koden</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>kommentar</ShortName>
+         <Data Type="string"
+               Lang="da"/>
+      </Column>
+      <Column Id="virkningFra"
+              Use="required">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden må tages i anvendelse for nye registreringer</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningFra</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Column Id="virkningTil"
+              Use="optional">
+         <Annotation>
+            <Description>
+               <dcterms:description>tidspunkt for hvornår koden ikke længere må anvendes i nye registreringer. Koden kan eksistere i data, der er registreret før dette tidspunkt</dcterms:description>
+            </Description>
+         </Annotation>
+         <ShortName>virkningTil</ShortName>
+         <Data Type="date"/>
+      </Column>
+      <Key Id="key_code">
+         <ShortName>key_code</ShortName>
+         <ColumnRef Ref="kode"/>
+      </Key>
+      <Key Id="key_navn">
+         <ShortName>key_navn</ShortName>
+         <ColumnRef Ref="navn"/>
+      </Key>
+   </ColumnSet>
+   <SimpleCodeList>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Centimeterkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Centimeterkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>topografiske kort over Danmark der viser naturlige og menneskeskabte landskabselementer. Kortene er udgivet i perioden fra 1957 til 2002. Trykte masseproducerede kort. Korttypen er erstattet af kort som bliver distribueret via web-tjenester</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>navnet hentyder til kortenes skala, fx er 4-cm kort er i målestokken 1:25.000 og 1-cm kort i målestokken 1:100.000. Kortværket er producet på baggrund af en fotogrametrisk udtegning af ortofotos</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Flyfotos</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Flyfotos</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre fotografier optaget fra fly med det formål at kortlægge landjorden</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>historiske flyfoto dækker Grønland, Færøerne og Danmark optaget fra 1940 og frem. Historiske flyfoto kan være optaget som lodfoto, panorama og skråfoto</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Færøske Topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Færøske Topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre topografiske kort over Færøerne der viser væsentlige naturlige og menneskeskabte landskabselementer. Desuden viser kortene administrative inddelinger. Trykte masseproducerede kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Grønlandske Topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Grønlandske Topografiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre topografiske kort over Grønland der viser væsentlige naturlige og menneskeskabte landskabselementer. Desuden viser kortene administrative inddelinger. Trykte masseproducerede kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Matrikelkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Matrikelkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre matrikelkort der viser den matrikulære inddeling indenfor et ejerlav</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>matrikelkortene blev opdateret når der skete matrikulære ændringer. Der er tale om håndtegnede kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Målebordsblade</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre topografiske kort over Danmark eller dele af Danmark der viser naturlige og menneskeskabte landskabselementer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>gruppen omfatter mange mindre serier, der er produceret til specialiserede formål og navnet henviser til kortenes produktionsmåde. Kortene er opmålt i marken ved hjælp af et målebord. Gruppen omfatter mange mindre serier</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Søkort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre søkort skabt analogt og senere skannet. Må ikke længere anvendes til at navigere efter</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>kortene viser alle slags elementer der kan have interesse for søfarten, såsom dybdeforhold, pejlemærker, fyr, bøjer og topografiske elementer på land der har hjulpet med landkendingen. Desuden findes der detaljerede havnekort. Søkortenes dækningsområder har hovedvægt på de danske farvande, men der findes søkort i samlingen der dækker hele verden. Kortene er produceret af søværnet samt SDFE, GSTs og KMS' forgængere i Søkortarkivet. Kortene kan både være håndtegnede, trykte og trykte med håndindtegnede opdateringer</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Tematiske Kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Tematiske Kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre skannede kort med temaer</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>temaerne kan fx være jordbund, arkæologiske fund eller administrative grænser som sognegrænser, kommunegrænser eller landegrænser</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Ældre Topografiske Kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Ældre Topografiske Kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre topografiske kort skabt analogt og senere skannet</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar"/>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+      <Row>
+         <Value ColumnRef="kode">
+            <SimpleValue>Økonomiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="navn">
+            <SimpleValue>Økonomiske kort</SimpleValue>
+         </Value>
+         <Value ColumnRef="definition">
+            <SimpleValue>ældre kort produceret til matrikuleringen eller udskiftningen. Kortene er generelt ikke opdateret med matrikulære ændringer. Gruppen omfatter mange mindre og større serier</SimpleValue>
+         </Value>
+         <Value ColumnRef="kommentar">
+            <SimpleValue>landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningFra">
+            <SimpleValue>2025-07-01</SimpleValue>
+         </Value>
+         <Value ColumnRef="virkningTil"/>
+      </Row>
+   </SimpleCodeList>
+</gc:CodeList>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#">
+   <skos:ConceptScheme rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe">
+      <dcterms:title xml:lang="da">kortgruppe</dcterms:title>
+      <dcterms:identifier>urn:uuid:7b007c3c-17fa-444e-9040-375fd5e36150</dcterms:identifier>
+      <owl:sameAs rdf:resource="urn:uuid:7b007c3c-17fa-444e-9040-375fd5e36150"/>
+      <dcterms:creator xml:lang="da">Klimadatastyrelsen</dcterms:creator>
+      <dcterms:description xml:lang="da">overordnet gruppering af kortværker, hvor metadatafelter er identisk </dcterms:description>
+      <dcterms:provenance xml:lang="da">første version af kodelisten </dcterms:provenance>
+      <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.da"/>
+      <dcterms:available xmlns:gc="http://docs.oasis-open.org/codelist/ns/genericode/1.0/">2026-03-19</dcterms:available>
+      <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0.0</dcat:version>
+      <dcat:version rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">urn:uuid:143d6a1e-9ec5-4ebb-9a1e-f6d2e5d133d1</dcat:version>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.gc"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.csv"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.html"/>
+      <dcat:distribution rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.rdf"/>
+   </skos:ConceptScheme>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.gc">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/xml"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.csv">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.html">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/text/html"/>
+   </dcat:Distribution>
+   <dcat:Distribution rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.rdf">
+      <dcterms:format rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
+   </dcat:Distribution>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Centimeterkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Centimeterkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Centimeterkort</skos:prefLabel>
+      <skos:definition xml:lang="da">topografiske kort over Danmark der viser naturlige og menneskeskabte landskabselementer. Kortene er udgivet i perioden fra 1957 til 2002. Trykte masseproducerede kort. Korttypen er erstattet af kort som bliver distribueret via web-tjenester</skos:definition>
+      <rdfs:comment xml:lang="da">navnet hentyder til kortenes skala, fx er 4-cm kort er i målestokken 1:25.000 og 1-cm kort i målestokken 1:100.000. Kortværket er producet på baggrund af en fotogrametrisk udtegning af ortofotos</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Flyfotos">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Flyfotos</skos:notation>
+      <skos:prefLabel xml:lang="da">Flyfotos</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre fotografier optaget fra fly med det formål at kortlægge landjorden</skos:definition>
+      <rdfs:comment xml:lang="da">historiske flyfoto dækker Grønland, Færøerne og Danmark optaget fra 1940 og frem. Historiske flyfoto kan være optaget som lodfoto, panorama og skråfoto</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Færøske Topografiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Færøske Topografiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Færøske Topografiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre topografiske kort over Færøerne der viser væsentlige naturlige og menneskeskabte landskabselementer. Desuden viser kortene administrative inddelinger. Trykte masseproducerede kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Grønlandske Topografiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Grønlandske Topografiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Grønlandske Topografiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre topografiske kort over Grønland der viser væsentlige naturlige og menneskeskabte landskabselementer. Desuden viser kortene administrative inddelinger. Trykte masseproducerede kort</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Matrikelkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Matrikelkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Matrikelkort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre matrikelkort der viser den matrikulære inddeling indenfor et ejerlav</skos:definition>
+      <rdfs:comment xml:lang="da">matrikelkortene blev opdateret når der skete matrikulære ændringer. Der er tale om håndtegnede kort</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Målebordsblade">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Målebordsblade</skos:notation>
+      <skos:prefLabel xml:lang="da">Målebordsblade</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre topografiske kort over Danmark eller dele af Danmark der viser naturlige og menneskeskabte landskabselementer</skos:definition>
+      <rdfs:comment xml:lang="da">gruppen omfatter mange mindre serier, der er produceret til specialiserede formål og navnet henviser til kortenes produktionsmåde. Kortene er opmålt i marken ved hjælp af et målebord. Gruppen omfatter mange mindre serier</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Søkort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Søkort</skos:notation>
+      <skos:prefLabel xml:lang="da">Søkort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre søkort skabt analogt og senere skannet. Må ikke længere anvendes til at navigere efter</skos:definition>
+      <rdfs:comment xml:lang="da">kortene viser alle slags elementer der kan have interesse for søfarten, såsom dybdeforhold, pejlemærker, fyr, bøjer og topografiske elementer på land der har hjulpet med landkendingen. Desuden findes der detaljerede havnekort. Søkortenes dækningsområder har hovedvægt på de danske farvande, men der findes søkort i samlingen der dækker hele verden. Kortene er produceret af søværnet samt SDFE, GSTs og KMS' forgængere i Søkortarkivet. Kortene kan både være håndtegnede, trykte og trykte med håndindtegnede opdateringer</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Tematiske Kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Tematiske Kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Tematiske Kort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre skannede kort med temaer</skos:definition>
+      <rdfs:comment xml:lang="da">temaerne kan fx være jordbund, arkæologiske fund eller administrative grænser som sognegrænser, kommunegrænser eller landegrænser</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Ældre Topografiske Kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Ældre Topografiske Kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Ældre Topografiske Kort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre topografiske kort skabt analogt og senere skannet</skos:definition>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+   <skos:Concept rdf:about="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/Økonomiske kort">
+      <skos:inScheme rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:topConceptOf rdf:resource="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe"/>
+      <skos:notation>Økonomiske kort</skos:notation>
+      <skos:prefLabel xml:lang="da">Økonomiske kort</skos:prefLabel>
+      <skos:definition xml:lang="da">ældre kort produceret til matrikuleringen eller udskiftningen. Kortene er generelt ikke opdateret med matrikulære ændringer. Gruppen omfatter mange mindre og større serier</skos:definition>
+      <rdfs:comment xml:lang="da">landøkonomiske kort er detaljerede kort, der viser jordens kvalitet, anvendelse og øvrige landøkonomiske forhold i et bestemt område. De er primært blevet anvendt til vurdering af landbrugsejendomme, planlægning af landbrugsdrift og administration af landbrugsarealer</rdfs:comment>
+      <dcterms:valid>2025-07-01/..</dcterms:valid>
+   </skos:Concept>
+</rdf:RDF>

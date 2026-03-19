@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+   <title type="text">forretningshaendelse version 1.0.0</title>
+   <id>urn:uuid:1cec2747-4940-4fef-b78f-dd5b53a25fe3</id>
+   <updated>2026-03-19T13:49:23Z</updated>
+   <published>2026-03-19T00:00:00Z</published>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.0.forretningshaendelse.html"/>
+   <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+   <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+</entry>

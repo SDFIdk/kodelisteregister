@@ -12,7 +12,18 @@
       <name>Klimadatastyrelsen</name>
       <email>historiskekort@kds.dk</email>
    </author>
-   <updated>2025-10-08T14:10:27Z</updated>
+   <updated>2026-03-19T13:49:29Z</updated>
+   <entry>
+      <title type="text">kortgruppe version 1.0.0</title>
+      <id>urn:uuid:143d6a1e-9ec5-4ebb-9a1e-f6d2e5d133d1</id>
+      <updated>2026-03-19T13:49:26Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/historiskekort/kortgruppe/v1.0.0.kortgruppe.html"/>
+      <summary type="text">første version af kodelisten </summary>
+      <content type="html">&lt;div&gt;første version af kodelisten &lt;/div&gt;</content>
+   </entry>
    <entry>
       <title type="text">kortvaerk version 1.0.1</title>
       <id>urn:uuid:36ca7ea7-aad9-43ae-b789-8b1a646146ae</id>

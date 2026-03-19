@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <link rel="self"
+         type="application/atom+xml"
+         href="https://sdfidk.github.io/kodelisteregister/dar/feed.atom"/>
+   <link rel="alternate"
+         type="text/html"
+         href="https://sdfidk.github.io/kodelisteregister/dar/index.html"/>
+   <title>Kodelisteregister - DAR</title>
+   <id>urn:uuid:23d6f3a4-d604-4bce-9cac-69521dd1c306</id>
+   <author>
+      <name>Klimadatastyrelsen</name>
+      <email>adresser@kds.dk</email>
+   </author>
+   <updated>2026-03-19T13:49:29Z</updated>
+   <entry>
+      <title type="text">tekniskstandard version 1.0.0</title>
+      <id>urn:uuid:1fd80f46-87c9-482b-b462-a2f3894ecce4</id>
+      <updated>2026-03-19T13:49:25Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/tekniskstandard/v1.0.0.tekniskstandard.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">virkningsaktoer version 1.0.0</title>
+      <id>urn:uuid:af154cad-3fb4-4d05-a86a-b038ef3f9383</id>
+      <updated>2026-03-19T13:49:25Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/virkningsaktoer/v1.0.0.virkningsaktoer.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">kildetilgeometri version 1.0.0</title>
+      <id>urn:uuid:c4bcaae6-8aee-454b-9895-759e6a881cf3</id>
+      <updated>2026-03-19T13:49:24Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/kildetilgeometri/v1.0.0.kildetilgeometri.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">livscyklus version 1.0.0</title>
+      <id>urn:uuid:4c01da8f-54b5-4b67-9cb9-8c00c065556f</id>
+      <updated>2026-03-19T13:49:24Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/livscyklus/v1.0.0.livscyklus.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">noejagtighedsklasse version 1.0.0</title>
+      <id>urn:uuid:0888242a-99b2-461c-b953-8f9ec21045a2</id>
+      <updated>2026-03-19T13:49:24Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/noejagtighedsklasse/v1.0.0.noejagtighedsklasse.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningshaendelse version 1.0.0</title>
+      <id>urn:uuid:1cec2747-4940-4fef-b78f-dd5b53a25fe3</id>
+      <updated>2026-03-19T13:49:23Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/forretningshaendelse/v1.0.0.forretningshaendelse.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsomraade version 1.0.0</title>
+      <id>urn:uuid:f8515b29-0ca7-4245-ac9b-e0d03c302053</id>
+      <updated>2026-03-19T13:49:23Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/forretningsomraade/v1.0.0.forretningsomraade.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+   <entry>
+      <title type="text">forretningsproces version 1.0.0</title>
+      <id>urn:uuid:b6f28be8-0306-4bdf-9f3c-faeabf06b64e</id>
+      <updated>2026-03-19T13:49:23Z</updated>
+      <published>2026-03-19T00:00:00Z</published>
+      <link rel="alternate"
+            type="text/html"
+            href="https://sdfidk.github.io/kodelisteregister/dar/forretningsproces/v1.0.0.forretningsproces.html"/>
+      <summary type="text">Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/</summary>
+      <content type="html">&lt;div&gt;Kodelisten er oprettet med værdier fra https://danmarksadresser.dk/&lt;/div&gt;</content>
+   </entry>
+</feed>
