@@ -10,7 +10,7 @@
 :identifier: urn:uuid:3fdffcb1-401d-47fd-90c4-bf0ba33c56c8
 // Eksempel:
 // :identifier: urn:uuid:69eb3207-978f-4edd-aab0-40827918b52c
-:description: {doctitle} indeholder myndighedskoder bl.a. anvendt i Grunddataregistre ift. beskrivelse, ejerskab og kontaktoplysninger.
+:description: {doctitle} indeholder myndighedskoder fra CPRs myndighedsregister. Koderne er oprettet her i Kodelisteregistret til brug for bl.a. Grunddataregistrene.
 :encoding: utf-8
 :keywords: kodeliste, genericode, grunddata
 :lang: da
@@ -30,7 +30,7 @@ Her er lister med koder, som indgår i {doctitle}. {doctitle} er ikke et officie
 
 [#owner]
 == Ejer
-{doctitle} er ejet af {author}.
+{doctitle} er oprettet af {author}. CPR ejer det officielle myndighedsregister.
 
 [#contact]
 == Kontakt
